@@ -1,0 +1,151 @@
+May 17 20:05:42 ubuntu postfix/sendmail[1135]: warning: valid_hostname: misplaced delimiter: ubuntu..name
+May 17 20:05:42 ubuntu postfix/sendmail[1135]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: ubuntu..name
+May 17 20:08:39 hackershala postmulti[644]: warning: valid_hostname: misplaced delimiter: ubuntu..name
+May 17 20:08:39 hackershala postmulti[644]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: ubuntu..name
+May 17 20:09:05 hackershala postmulti[830]: warning: valid_hostname: misplaced delimiter: ubuntu..name
+May 17 20:09:05 hackershala postmulti[830]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: ubuntu..name
+May 17 20:09:06 hackershala postfix/sendmail[908]: warning: valid_hostname: misplaced delimiter: ubuntu..name
+May 17 20:09:06 hackershala postfix/sendmail[908]: fatal: file /etc/postfix/main.cf: parameter myhostname: bad parameter value: ubuntu..name
+May 17 20:12:39 hackershala postfix/postfix-script[1082]: starting the Postfix mail system
+May 17 20:12:39 hackershala postfix/master[1084]: daemon started -- version 3.3.0, configuration /etc/postfix
+May 17 20:14:08 hackershala postfix/postfix-script[1112]: stopping the Postfix mail system
+May 17 20:14:08 hackershala postfix/master[1084]: terminating on signal 15
+May 17 20:14:09 hackershala postfix/postfix-script[1267]: starting the Postfix mail system
+May 17 20:14:09 hackershala postfix/master[1269]: daemon started -- version 3.3.0, configuration /etc/postfix
+May 17 20:15:19 hackershala postfix/postfix-script[1532]: stopping the Postfix mail system
+May 17 20:15:19 hackershala postfix/master[1269]: terminating on signal 15
+May 17 20:15:20 hackershala postfix/postfix-script[1687]: starting the Postfix mail system
+May 17 20:15:20 hackershala postfix/master[1689]: daemon started -- version 3.3.0, configuration /etc/postfix
+May 17 20:15:28 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up without any protocols (core dumps disabled)
+May 17 20:15:28 hackershala dovecot: ssl-params: Generating SSL parameters
+May 17 20:15:30 hackershala dovecot: ssl-params: SSL parameters regeneration completed
+May 17 20:15:31 hackershala dovecot: master: Warning: Killed with signal 15 (by pid=5154 uid=0 code=kill)
+May 17 20:15:31 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+May 17 20:25:19 hackershala dovecot: master: Warning: Killed with signal 15 (by pid=5205 uid=0 code=kill)
+May 17 20:25:19 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+May 24 08:48:17 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+May 24 08:48:18 hackershala postfix/postfix-script[809]: starting the Postfix mail system
+May 24 08:48:18 hackershala postfix/master[811]: daemon started -- version 3.3.0, configuration /etc/postfix
+May 24 18:44:11 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+May 24 18:44:12 hackershala postfix/postfix-script[809]: starting the Postfix mail system
+May 24 18:44:12 hackershala postfix/master[811]: daemon started -- version 3.3.0, configuration /etc/postfix
+May 24 19:22:17 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+May 24 19:22:17 hackershala postfix/postfix-script[735]: starting the Postfix mail system
+May 24 19:22:17 hackershala postfix/master[737]: daemon started -- version 3.3.0, configuration /etc/postfix
+May 25 12:54:20 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+May 25 12:54:21 hackershala postfix/postfix-script[825]: starting the Postfix mail system
+May 25 12:54:21 hackershala postfix/master[827]: daemon started -- version 3.3.0, configuration /etc/postfix
+May 28 12:10:58 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+May 28 12:10:59 hackershala postfix/postfix-script[799]: starting the Postfix mail system
+May 28 12:10:59 hackershala postfix/master[801]: daemon started -- version 3.3.0, configuration /etc/postfix
+May 28 12:14:21 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+May 28 12:14:22 hackershala postfix/postfix-script[772]: starting the Postfix mail system
+May 28 12:14:22 hackershala postfix/master[774]: daemon started -- version 3.3.0, configuration /etc/postfix
+May 28 12:45:34 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+May 28 12:45:35 hackershala postfix/postfix-script[762]: starting the Postfix mail system
+May 28 12:45:35 hackershala postfix/master[764]: daemon started -- version 3.3.0, configuration /etc/postfix
+May 29 11:22:41 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+May 29 11:22:42 hackershala postfix/postfix-script[846]: starting the Postfix mail system
+May 29 11:22:42 hackershala postfix/master[848]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun  1 18:29:39 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun  1 18:29:40 hackershala postfix/postfix-script[801]: starting the Postfix mail system
+Jun  1 18:29:40 hackershala postfix/master[803]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun  1 19:20:47 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun  1 19:20:48 hackershala postfix/postfix-script[772]: starting the Postfix mail system
+Jun  1 19:20:48 hackershala postfix/master[774]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun  1 19:25:38 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun  1 19:25:38 hackershala postfix/postfix-script[761]: starting the Postfix mail system
+Jun  1 19:25:38 hackershala postfix/master[763]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun  2 13:25:37 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun  2 13:25:39 hackershala postfix/postfix-script[810]: starting the Postfix mail system
+Jun  2 13:25:39 hackershala postfix/master[812]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 10 23:40:12 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 10 23:40:13 hackershala postfix/postfix-script[801]: starting the Postfix mail system
+Jun 10 23:40:13 hackershala postfix/master[803]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 17 09:12:46 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 17 09:12:47 hackershala postfix/postfix-script[800]: starting the Postfix mail system
+Jun 17 09:12:47 hackershala postfix/master[802]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 17 09:43:03 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 17 09:43:04 hackershala postfix/postfix-script[771]: starting the Postfix mail system
+Jun 17 09:43:04 hackershala postfix/master[773]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 17 09:51:21 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 17 09:51:22 hackershala postfix/postfix-script[770]: starting the Postfix mail system
+Jun 17 09:51:22 hackershala postfix/master[772]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 17 10:02:33 hackershala postfix/pickup[774]: 41BE84045D: uid=1001 from=<hsip>
+Jun 17 10:02:33 hackershala postfix/cleanup[998]: 41BE84045D: message-id=<20200617043233.41BE84045D@hackershala.com>
+Jun 17 10:02:33 hackershala postfix/qmgr[775]: 41BE84045D: from=<hsip@hackershala.com>, size=499, nrcpt=1 (queue active)
+Jun 17 10:02:33 hackershala postfix/local[1001]: 41BE84045D: to=<root@hackershala.com>, orig_to=<root>, relay=local, delay=0.09, delays=0.06/0.02/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jun 17 10:02:33 hackershala postfix/qmgr[775]: 41BE84045D: removed
+Jun 17 16:53:15 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 17 16:53:16 hackershala postfix/postfix-script[778]: starting the Postfix mail system
+Jun 17 16:53:16 hackershala postfix/master[780]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 17 11:35:35 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 17 11:35:36 hackershala postfix/postfix-script[755]: starting the Postfix mail system
+Jun 17 11:35:36 hackershala postfix/master[757]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 17 12:26:20 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 17 12:26:21 hackershala postfix/postfix-script[735]: starting the Postfix mail system
+Jun 17 12:26:21 hackershala postfix/master[737]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 17 12:36:43 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 17 12:36:44 hackershala postfix/postfix-script[736]: starting the Postfix mail system
+Jun 17 12:36:44 hackershala postfix/master[738]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 18 12:13:08 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 18 12:13:09 hackershala postfix/postfix-script[774]: starting the Postfix mail system
+Jun 18 12:13:09 hackershala postfix/master[776]: daemon started -- version 3.3.0, configuration /etc/postfix
+                                                                                                                                                                                                                                                                                                                                   Jun 18 12:32:36 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 18 12:32:39 hackershala postfix/postfix-script[748]: starting the Postfix mail system
+Jun 18 12:32:39 hackershala postfix/master[750]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 18 13:37:46 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 18 13:37:49 hackershala postfix/postfix-script[745]: starting the Postfix mail system
+Jun 18 13:37:49 hackershala postfix/master[747]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 18 13:50:32 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 18 13:50:34 hackershala postfix/postfix-script[737]: starting the Postfix mail system
+Jun 18 13:50:34 hackershala postfix/master[739]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 19 10:07:33 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 19 10:07:37 hackershala postfix/postfix-script[792]: starting the Postfix mail system
+Jun 19 10:07:37 hackershala postfix/master[794]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 20 21:38:35 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 20 21:38:38 hackershala postfix/postfix-script[804]: starting the Postfix mail system
+Jun 20 21:38:38 hackershala postfix/master[806]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 23 23:02:42 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 23 23:02:43 hackershala postfix/postfix-script[802]: starting the Postfix mail system
+Jun 23 23:02:43 hackershala postfix/master[804]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 23 18:09:24 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 23 18:09:24 hackershala postfix/postfix-script[761]: starting the Postfix mail system
+Jun 23 18:09:24 hackershala postfix/master[763]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 23 18:20:24 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 23 18:20:25 hackershala postfix/postfix-script[1682]: starting the Postfix mail system
+Jun 23 18:20:25 hackershala postfix/master[1684]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 23 18:26:38 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 23 18:26:38 hackershala postfix/postfix-script[765]: starting the Postfix mail system
+Jun 23 18:26:38 hackershala postfix/master[767]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 24 16:04:59 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 24 16:05:05 hackershala postfix/postfix-script[817]: starting the Postfix mail system
+Jun 24 16:05:06 hackershala postfix/master[819]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 24 16:06:45 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 24 16:06:46 hackershala postfix/postfix-script[758]: starting the Postfix mail system
+Jun 24 16:06:46 hackershala postfix/master[760]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 24 16:07:13 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 24 16:07:13 hackershala postfix/postfix-script[762]: starting the Postfix mail system
+Jun 24 16:07:13 hackershala postfix/master[764]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 24 16:07:26 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 24 16:07:26 hackershala postfix/postfix-script[772]: starting the Postfix mail system
+Jun 24 16:07:26 hackershala postfix/master[774]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 24 16:09:59 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 24 16:10:00 hackershala postfix/postfix-script[762]: starting the Postfix mail system
+Jun 24 16:10:00 hackershala postfix/master[764]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 24 16:39:13 hackershala postfix/pickup[766]: 2A7404042B: uid=1000 from=<ubuntu>
+Jun 24 16:39:13 hackershala postfix/cleanup[1036]: 2A7404042B: message-id=<20200624110913.2A7404042B@hackershala.com>
+Jun 24 16:39:13 hackershala postfix/qmgr[767]: 2A7404042B: from=<ubuntu@hackershala.com>, size=519, nrcpt=1 (queue active)
+Jun 24 16:39:13 hackershala postfix/local[1038]: 2A7404042B: to=<root@hackershala.com>, orig_to=<root>, relay=local, delay=0.22, delays=0.1/0.12/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jun 24 16:39:13 hackershala postfix/qmgr[767]: 2A7404042B: removed
+Jun 24 16:57:16 hackershala postfix/pickup[766]: 2977F4042B: uid=1001 from=<hsip>
+Jun 24 16:57:16 hackershala postfix/cleanup[1195]: 2977F4042B: message-id=<20200624112716.2977F4042B@hackershala.com>
+Jun 24 16:57:16 hackershala postfix/qmgr[767]: 2977F4042B: from=<hsip@hackershala.com>, size=521, nrcpt=1 (queue active)
+Jun 24 16:57:16 hackershala postfix/local[1197]: 2977F4042B: to=<root@hackershala.com>, orig_to=<root>, relay=local, delay=0.02, delays=0.01/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jun 24 16:57:16 hackershala postfix/qmgr[767]: 2977F4042B: removed
+Jun 25 17:50:47 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 25 17:50:51 hackershala postfix/postfix-script[815]: starting the Postfix mail system
+Jun 25 17:50:51 hackershala postfix/master[817]: daemon started -- version 3.3.0, configuration /etc/postfix
+Jun 25 19:00:47 hackershala dovecot: master: Dovecot v2.2.33.2 (d6601f4ec) starting up for imap, pop3 (core dumps disabled)
+Jun 25 19:00:48 hackershala postfix/postfix-script[792]: starting the Postfix mail system
+Jun 25 19:00:48 hackershala postfix/master[794]: daemon started -- version 3.3.0, configuration /etc/postfix

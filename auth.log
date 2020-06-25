@@ -1,0 +1,1283 @@
+May  4 10:40:56 ubuntu systemd-logind[528]: New seat seat0.
+May  4 10:40:56 ubuntu systemd-logind[528]: Watching system buttons on /dev/input/event0 (Power Button)
+May  4 10:40:56 ubuntu systemd-logind[528]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May  4 10:41:06 ubuntu login[549]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May  4 10:41:06 ubuntu systemd-logind[528]: New session 1 of user ubuntu.
+May  4 10:41:06 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May  4 10:41:13 ubuntu sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May  4 10:41:13 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  4 10:41:37 ubuntu groupadd[822]: group added to /etc/group: name=ssl-cert, GID=113
+May  4 10:41:37 ubuntu groupadd[822]: group added to /etc/gshadow: name=ssl-cert
+May  4 10:41:37 ubuntu groupadd[822]: new group: name=ssl-cert, GID=113
+May  4 10:41:37 ubuntu groupadd[856]: group added to /etc/group: name=ftp, GID=114
+May  4 10:41:37 ubuntu groupadd[856]: group added to /etc/gshadow: name=ftp
+May  4 10:41:37 ubuntu groupadd[856]: new group: name=ftp, GID=114
+May  4 10:41:37 ubuntu useradd[860]: new user: name=ftp, UID=106, GID=114, home=/srv/ftp, shell=/usr/sbin/nologin
+May  4 10:41:37 ubuntu usermod[866]: change user 'ftp' password
+May  4 10:41:37 ubuntu chage[871]: changed password expiry for ftp
+May  4 10:41:37 ubuntu chfn[874]: changed user 'ftp' information
+May  4 10:47:46 ubuntu useradd[1338]: new user: name=sshd, UID=107, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+May  4 10:47:46 ubuntu usermod[1344]: change user 'sshd' password
+May  4 10:47:46 ubuntu chage[1349]: changed password expiry for sshd
+May  4 10:47:47 ubuntu sshd[1424]: Server listening on 0.0.0.0 port 22.
+May  4 10:47:47 ubuntu sshd[1424]: Server listening on :: port 22.
+May  4 10:48:32 ubuntu sshd[1553]: Connection closed by 192.168.0.7 port 48142 [preauth]
+May  4 10:50:04 ubuntu sshd[1555]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.7  user=ubuntu
+May  4 10:50:06 ubuntu sshd[1555]: Failed password for ubuntu from 192.168.0.7 port 48242 ssh2
+May  4 10:50:08 ubuntu sshd[1555]: Accepted password for ubuntu from 192.168.0.7 port 48242 ssh2
+May  4 10:50:08 ubuntu sshd[1555]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  4 10:50:08 ubuntu systemd-logind[528]: New session 3 of user ubuntu.
+May  4 10:50:27 ubuntu sshd[1580]: Received disconnect from 192.168.0.7 port 48242:11: disconnected by user
+May  4 10:50:27 ubuntu sshd[1580]: Disconnected from user ubuntu 192.168.0.7 port 48242
+May  4 10:50:27 ubuntu sshd[1555]: pam_unix(sshd:session): session closed for user ubuntu
+May  4 10:50:27 ubuntu systemd-logind[528]: Removed session 3.
+May  4 12:57:08 ubuntu systemd-logind[552]: New seat seat0.
+May  4 12:57:08 ubuntu systemd-logind[552]: Watching system buttons on /dev/input/event0 (Power Button)
+May  4 12:57:08 ubuntu systemd-logind[552]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May  4 12:57:08 ubuntu sshd[563]: Server listening on 0.0.0.0 port 22.
+May  4 12:57:08 ubuntu sshd[563]: Server listening on :: port 22.
+May  4 12:57:14 ubuntu login[570]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May  4 12:57:14 ubuntu systemd-logind[552]: New session 1 of user ubuntu.
+May  4 12:57:14 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May  4 12:58:21 ubuntu sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May  4 12:58:21 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  4 13:00:01 ubuntu sshd[624]: Accepted password for ubuntu from 192.168.0.7 port 41150 ssh2
+May  4 13:00:01 ubuntu sshd[624]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  4 13:00:01 ubuntu systemd-logind[552]: New session 3 of user ubuntu.
+May  4 13:00:11 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May  4 13:00:11 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  4 13:02:27 ubuntu su[683]: Successful su for ubuntu by root
+May  4 13:02:27 ubuntu su[683]: + /dev/pts/0 root:ubuntu
+May  4 13:02:27 ubuntu su[683]: pam_unix(su:session): session opened for user ubuntu by ubuntu(uid=0)
+May  4 13:02:27 ubuntu su[683]: pam_systemd(su:session): Cannot create session: Already running in a session
+May  4 13:02:41 ubuntu passwd[692]: pam_unix(passwd:chauthtok): authentication failure; logname=ubuntu uid=1000 euid=0 tty= ruser= rhost=  user=ubuntu
+May  4 13:02:55 ubuntu passwd[693]: pam_unix(passwd:chauthtok): authentication failure; logname=ubuntu uid=1000 euid=0 tty= ruser= rhost=  user=ubuntu
+May  4 13:03:08 ubuntu passwd[694]: pam_unix(passwd:chauthtok): authentication failure; logname=ubuntu uid=1000 euid=0 tty= ruser= rhost=  user=ubuntu
+May  4 13:03:27 ubuntu passwd[695]: pam_unix(passwd:chauthtok): password changed for ubuntu
+May  4 13:03:33 ubuntu su[696]: pam_unix(su:auth): authentication failure; logname=ubuntu uid=1000 euid=0 tty=/dev/pts/0 ruser=ubuntu rhost=  user=root
+May  4 13:03:35 ubuntu su[696]: pam_authenticate: Authentication failure
+May  4 13:03:35 ubuntu su[696]: FAILED su for root by ubuntu
+May  4 13:03:35 ubuntu su[696]: - /dev/pts/0 ubuntu:root
+May  4 13:03:38 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/srv/ftp/Sarman ; USER=root ; COMMAND=/bin/bash
+May  4 13:03:38 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  4 13:06:17 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  4 13:06:19 ubuntu su[683]: pam_unix(su:session): session closed for user ubuntu
+May  4 13:06:24 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  4 13:06:25 ubuntu sshd[649]: Received disconnect from 192.168.0.7 port 41150:11: disconnected by user
+May  4 13:06:25 ubuntu sshd[649]: Disconnected from user ubuntu 192.168.0.7 port 41150
+May  4 13:06:25 ubuntu sshd[624]: pam_unix(sshd:session): session closed for user ubuntu
+May  4 13:06:25 ubuntu systemd-logind[552]: Removed session 3.
+May  4 13:06:37 ubuntu sshd[719]: Accepted password for ubuntu from 192.168.0.7 port 41188 ssh2
+May  4 13:06:37 ubuntu sshd[719]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  4 13:06:37 ubuntu systemd-logind[552]: New session 4 of user ubuntu.
+May  4 13:07:10 ubuntu sshd[744]: Received disconnect from 192.168.0.7 port 41188:11: disconnected by user
+May  4 13:07:10 ubuntu sshd[744]: Disconnected from user ubuntu 192.168.0.7 port 41188
+May  4 13:07:10 ubuntu sshd[719]: pam_unix(sshd:session): session closed for user ubuntu
+May  4 13:07:10 ubuntu systemd-logind[552]: Removed session 4.
+May  4 13:09:18 ubuntu sshd[761]: Accepted password for ubuntu from 192.168.0.7 port 41212 ssh2
+May  4 13:09:18 ubuntu sshd[761]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  4 13:09:18 ubuntu systemd-logind[552]: New session 5 of user ubuntu.
+May  4 13:09:26 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May  4 13:09:26 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  4 13:10:30 ubuntu sshd[563]: Received signal 15; terminating.
+May  4 13:10:30 ubuntu sshd[815]: Server listening on 0.0.0.0 port 65535.
+May  4 13:10:30 ubuntu sshd[815]: Server listening on :: port 65535.
+May  4 13:10:40 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  4 13:10:42 ubuntu sshd[786]: Received disconnect from 192.168.0.7 port 41212:11: disconnected by user
+May  4 13:10:42 ubuntu sshd[786]: Disconnected from user ubuntu 192.168.0.7 port 41212
+May  4 13:10:42 ubuntu sshd[761]: pam_unix(sshd:session): session closed for user ubuntu
+May  4 13:10:42 ubuntu systemd-logind[552]: Removed session 5.
+May  4 13:11:18 ubuntu sshd[822]: Accepted password for ubuntu from 192.168.0.7 port 47602 ssh2
+May  4 13:11:18 ubuntu sshd[822]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  4 13:11:18 ubuntu systemd-logind[552]: New session 6 of user ubuntu.
+May  4 13:11:36 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May  4 13:11:36 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  4 13:14:22 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  4 13:14:26 ubuntu sshd[847]: Received disconnect from 192.168.0.7 port 47602:11: disconnected by user
+May  4 13:14:26 ubuntu sshd[847]: Disconnected from user ubuntu 192.168.0.7 port 47602
+May  4 13:14:26 ubuntu sshd[822]: pam_unix(sshd:session): session closed for user ubuntu
+May  4 13:14:26 ubuntu systemd-logind[552]: Removed session 6.
+May  4 13:17:01 ubuntu CRON[875]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  4 13:17:01 ubuntu CRON[875]: pam_unix(cron:session): session closed for user root
+May  4 13:19:16 ubuntu sshd[878]: Accepted password for ubuntu from 192.168.0.7 port 47760 ssh2
+May  4 13:19:16 ubuntu sshd[878]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  4 13:19:16 ubuntu systemd-logind[552]: New session 8 of user ubuntu.
+May  4 13:19:25 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May  4 13:19:25 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  4 13:19:46 ubuntu sshd[815]: Received signal 15; terminating.
+May  4 13:19:46 ubuntu sshd[936]: Server listening on 0.0.0.0 port 22.
+May  4 13:19:46 ubuntu sshd[936]: Server listening on :: port 22.
+May  4 13:19:47 ubuntu sshd[936]: Received signal 15; terminating.
+May  4 13:19:47 ubuntu sshd[943]: Server listening on 0.0.0.0 port 22.
+May  4 13:19:47 ubuntu sshd[943]: Server listening on :: port 22.
+May  4 13:20:06 ubuntu sshd[949]: Accepted password for ubuntu from 192.168.0.7 port 41430 ssh2
+May  4 13:20:06 ubuntu sshd[949]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  4 13:20:06 ubuntu systemd-logind[552]: New session 9 of user ubuntu.
+May  4 13:20:06 ubuntu sshd[974]: Received disconnect from 192.168.0.7 port 41430:11: disconnected by user
+May  4 13:20:06 ubuntu sshd[974]: Disconnected from user ubuntu 192.168.0.7 port 41430
+May  4 13:20:06 ubuntu sshd[949]: pam_unix(sshd:session): session closed for user ubuntu
+May  4 13:20:06 ubuntu systemd-logind[552]: Removed session 9.
+May  4 13:40:38 ubuntu sshd[998]: Accepted publickey for ubuntu from 192.168.0.7 port 41566 ssh2: RSA SHA256:okZE08FcP2ZfYaI2K/+9rpODBLETE8Hat3DG++2cKWM
+May  4 13:40:38 ubuntu sshd[998]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  4 13:40:38 ubuntu systemd-logind[552]: New session 10 of user ubuntu.
+May  4 13:41:43 ubuntu sshd[943]: Received signal 15; terminating.
+May  4 13:41:43 ubuntu sshd[1044]: Server listening on 0.0.0.0 port 65535.
+May  4 13:41:43 ubuntu sshd[1044]: Server listening on :: port 65535.
+May  4 13:41:53 ubuntu sshd[1023]: Received disconnect from 192.168.0.7 port 41566:11: disconnected by user
+May  4 13:41:53 ubuntu sshd[1023]: Disconnected from user ubuntu 192.168.0.7 port 41566
+May  4 13:41:53 ubuntu sshd[998]: pam_unix(sshd:session): session closed for user ubuntu
+May  4 13:41:53 ubuntu systemd-logind[552]: Removed session 10.
+May  4 13:42:04 ubuntu sshd[1048]: Accepted publickey for ubuntu from 192.168.0.7 port 47918 ssh2: RSA SHA256:okZE08FcP2ZfYaI2K/+9rpODBLETE8Hat3DG++2cKWM
+May  4 13:42:04 ubuntu sshd[1048]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  4 13:42:04 ubuntu systemd-logind[552]: New session 11 of user ubuntu.
+May  4 13:46:08 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/srv/ftp/Sarman ; USER=root ; COMMAND=/bin/nano flag
+May  4 13:46:08 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  4 13:46:15 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  4 13:46:39 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  4 13:46:41 ubuntu sshd[903]: Received disconnect from 192.168.0.7 port 47760:11: disconnected by user
+May  4 13:46:41 ubuntu sshd[903]: Disconnected from user ubuntu 192.168.0.7 port 47760
+May  4 13:46:41 ubuntu sshd[878]: pam_unix(sshd:session): session closed for user ubuntu
+May  4 13:46:41 ubuntu systemd-logind[552]: Removed session 8.
+May  4 13:47:10 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/srv/ftp/Sarman ; USER=root ; COMMAND=/bin/bash
+May  4 13:47:10 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  4 13:47:38 ubuntu sshd[1044]: Received signal 15; terminating.
+May  4 13:47:38 ubuntu sshd[1124]: Server listening on 0.0.0.0 port 22.
+May  4 13:47:38 ubuntu sshd[1124]: Server listening on :: port 22.
+May  4 13:48:33 ubuntu sshd[1125]: Accepted publickey for ubuntu from 192.168.0.7 port 41622 ssh2: RSA SHA256:okZE08FcP2ZfYaI2K/+9rpODBLETE8Hat3DG++2cKWM
+May  4 13:48:33 ubuntu sshd[1125]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  4 13:48:33 ubuntu systemd-logind[552]: New session 12 of user ubuntu.
+May  4 13:48:33 ubuntu sshd[1150]: Received disconnect from 192.168.0.7 port 41622:11: disconnected by user
+May  4 13:48:33 ubuntu sshd[1150]: Disconnected from user ubuntu 192.168.0.7 port 41622
+May  4 13:48:33 ubuntu sshd[1125]: pam_unix(sshd:session): session closed for user ubuntu
+May  4 13:48:33 ubuntu systemd-logind[552]: Removed session 12.
+May  4 13:48:55 ubuntu sshd[1152]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.7  user=root
+May  4 13:48:56 ubuntu sshd[1152]: Failed password for root from 192.168.0.7 port 41624 ssh2
+May  4 13:49:08 ubuntu sshd[1152]: message repeated 2 times: [ Failed password for root from 192.168.0.7 port 41624 ssh2]
+May  4 13:49:08 ubuntu sshd[1152]: Connection closed by authenticating user root 192.168.0.7 port 41624 [preauth]
+May  4 13:49:08 ubuntu sshd[1152]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.0.7  user=root
+May  4 13:49:50 ubuntu sshd[1154]: Accepted publickey for ubuntu from 192.168.0.7 port 41634 ssh2: RSA SHA256:okZE08FcP2ZfYaI2K/+9rpODBLETE8Hat3DG++2cKWM
+May  4 13:49:50 ubuntu sshd[1154]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  4 13:49:50 ubuntu systemd-logind[552]: New session 13 of user ubuntu.
+May  4 13:49:50 ubuntu sshd[1179]: Received disconnect from 192.168.0.7 port 41634:11: disconnected by user
+May  4 13:49:50 ubuntu sshd[1179]: Disconnected from user ubuntu 192.168.0.7 port 41634
+May  4 13:49:50 ubuntu sshd[1154]: pam_unix(sshd:session): session closed for user ubuntu
+May  4 13:49:50 ubuntu systemd-logind[552]: Removed session 13.
+May  4 13:53:30 ubuntu sshd[1124]: Received signal 15; terminating.
+May  4 13:53:30 ubuntu sshd[1208]: Server listening on 0.0.0.0 port 65535.
+May  4 13:53:30 ubuntu sshd[1208]: Server listening on :: port 65535.
+May  4 14:01:53 ubuntu sshd[1446]: Accepted publickey for ubuntu from 192.168.0.9 port 49332 ssh2: RSA SHA256:okZE08FcP2ZfYaI2K/+9rpODBLETE8Hat3DG++2cKWM
+May  4 14:01:53 ubuntu sshd[1446]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  4 14:01:53 ubuntu systemd-logind[552]: New session 14 of user ubuntu.
+May  4 14:03:58 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/.secretfolder ; USER=root ; COMMAND=/bin/bash
+May  4 14:03:58 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  4 14:07:25 ubuntu sshd[1446]: pam_unix(sshd:session): session closed for user ubuntu
+May  4 14:07:25 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  4 14:07:25 ubuntu systemd-logind[552]: Removed session 14.
+May  4 14:08:03 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  4 14:08:05 ubuntu sshd[1073]: Received disconnect from 192.168.0.7 port 47918:11: disconnected by user
+May  4 14:08:05 ubuntu sshd[1073]: Disconnected from user ubuntu 192.168.0.7 port 47918
+May  4 14:08:05 ubuntu sshd[1048]: pam_unix(sshd:session): session closed for user ubuntu
+May  4 14:08:05 ubuntu systemd-logind[552]: Removed session 11.
+May  4 14:09:07 ubuntu sshd[1519]: Did not receive identification string from 192.168.0.7 port 48154
+May  4 14:09:29 ubuntu sshd[1520]: Connection closed by authenticating user root 192.168.0.7 port 48160 [preauth]
+May  4 14:09:43 ubuntu sshd[1522]: Accepted publickey for ubuntu from 192.168.0.7 port 48162 ssh2: RSA SHA256:okZE08FcP2ZfYaI2K/+9rpODBLETE8Hat3DG++2cKWM
+May  4 14:09:43 ubuntu sshd[1522]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  4 14:09:43 ubuntu systemd-logind[552]: New session 15 of user ubuntu.
+May  4 14:09:51 ubuntu sshd[1547]: Received disconnect from 192.168.0.7 port 48162:11: disconnected by user
+May  4 14:09:51 ubuntu sshd[1547]: Disconnected from user ubuntu 192.168.0.7 port 48162
+May  4 14:09:51 ubuntu sshd[1522]: pam_unix(sshd:session): session closed for user ubuntu
+May  4 14:09:51 ubuntu systemd-logind[552]: Removed session 15.
+May  4 14:10:16 ubuntu sshd[1559]: Connection closed by authenticating user ubuntu 192.168.0.7 port 48168 [preauth]
+May  4 14:11:04 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  4 14:11:04 ubuntu sshd[1208]: Received signal 15; terminating.
+May  5 21:31:48 ubuntu systemd-logind[521]: New seat seat0.
+May  5 21:31:48 ubuntu systemd-logind[521]: Watching system buttons on /dev/input/event0 (Power Button)
+May  5 21:31:48 ubuntu systemd-logind[521]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May  5 21:31:49 ubuntu sshd[558]: Server listening on 0.0.0.0 port 65535.
+May  5 21:31:49 ubuntu sshd[558]: Server listening on :: port 65535.
+May  5 21:32:47 ubuntu login[579]: pam_unix(login:auth): check pass; user unknown
+May  5 21:32:47 ubuntu login[579]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+May  5 21:32:50 ubuntu login[579]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+May  5 21:33:00 ubuntu login[579]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May  5 21:33:00 ubuntu systemd-logind[521]: New session 1 of user ubuntu.
+May  5 21:33:00 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May  6 13:05:20 ubuntu systemd-logind[566]: New seat seat0.
+May  6 13:05:20 ubuntu systemd-logind[566]: Watching system buttons on /dev/input/event0 (Power Button)
+May  6 13:05:20 ubuntu systemd-logind[566]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May  6 13:05:20 ubuntu sshd[588]: Server listening on 0.0.0.0 port 65535.
+May  6 13:05:20 ubuntu sshd[588]: Server listening on :: port 65535.
+May  6 13:05:33 ubuntu login[586]: pam_unix(login:auth): check pass; user unknown
+May  6 13:05:33 ubuntu login[586]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+May  6 13:05:36 ubuntu login[586]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+May  6 13:05:37 ubuntu login[586]: pam_unix(login:auth): check pass; user unknown
+May  6 13:05:37 ubuntu login[586]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+May  6 13:05:40 ubuntu login[586]: FAILED LOGIN (2) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+May  6 13:05:48 ubuntu login[586]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May  6 13:05:48 ubuntu systemd-logind[566]: New session 1 of user ubuntu.
+May  6 13:05:48 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May  6 13:06:01 ubuntu sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May  6 13:06:01 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  6 13:06:38 ubuntu passwd[742]: pam_unix(passwd:chauthtok): password changed for root
+May  6 13:06:43 ubuntu su[743]: Successful su for ubuntu by root
+May  6 13:06:43 ubuntu su[743]: + /dev/tty1 root:ubuntu
+May  6 13:06:43 ubuntu su[743]: pam_unix(su:session): session opened for user ubuntu by ubuntu(uid=0)
+May  6 13:06:43 ubuntu su[743]: pam_systemd(su:session): Cannot create session: Already running in a session
+May  6 13:07:18 ubuntu passwd[752]: pam_unix(passwd:chauthtok): new password not acceptable
+May  6 13:07:56 ubuntu passwd[754]: pam_unix(passwd:chauthtok): authentication failure; logname=ubuntu uid=1000 euid=0 tty= ruser= rhost=  user=ubuntu
+May  6 13:08:07 ubuntu passwd[755]: pam_unix(passwd:chauthtok): authentication failure; logname=ubuntu uid=1000 euid=0 tty= ruser= rhost=  user=ubuntu
+May  6 13:09:29 ubuntu passwd[756]: pam_unix(passwd:chauthtok): new password not acceptable
+May  6 13:09:43 ubuntu sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/passwd ubuntu
+May  6 13:09:43 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  6 13:09:47 ubuntu passwd[759]: pam_unix(passwd:chauthtok): password changed for ubuntu
+May  6 13:09:47 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  6 13:17:01 ubuntu CRON[762]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 13:17:01 ubuntu CRON[762]: pam_unix(cron:session): session closed for user root
+May  6 13:18:56 ubuntu sshd[766]: Accepted publickey for ubuntu from 192.168.0.7 port 58646 ssh2: RSA SHA256:okZE08FcP2ZfYaI2K/+9rpODBLETE8Hat3DG++2cKWM
+May  6 13:18:56 ubuntu sshd[766]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 13:18:56 ubuntu systemd-logind[566]: New session 4 of user ubuntu.
+May  6 13:20:01 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May  6 13:20:01 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  6 13:20:34 ubuntu sshd[588]: Received signal 15; terminating.
+May  6 13:20:35 ubuntu sshd[832]: Server listening on 0.0.0.0 port 22.
+May  6 13:20:35 ubuntu sshd[832]: Server listening on :: port 22.
+May  6 13:20:36 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  6 13:20:38 ubuntu sshd[791]: Received disconnect from 192.168.0.7 port 58646:11: disconnected by user
+May  6 13:20:38 ubuntu sshd[791]: Disconnected from user ubuntu 192.168.0.7 port 58646
+May  6 13:20:38 ubuntu sshd[766]: pam_unix(sshd:session): session closed for user ubuntu
+May  6 13:20:38 ubuntu systemd-logind[566]: Removed session 4.
+May  6 13:20:49 ubuntu sshd[834]: Connection closed by authenticating user root 192.168.0.7 port 58138 [preauth]
+May  6 13:20:57 ubuntu sshd[836]: Accepted publickey for ubuntu from 192.168.0.7 port 58140 ssh2: RSA SHA256:okZE08FcP2ZfYaI2K/+9rpODBLETE8Hat3DG++2cKWM
+May  6 13:20:57 ubuntu sshd[836]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 13:20:57 ubuntu systemd-logind[566]: New session 5 of user ubuntu.
+May  6 13:22:02 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/srv/ftp ; USER=root ; COMMAND=/bin/rm -rf Sarman/
+May  6 13:22:02 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  6 13:22:02 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  6 13:22:06 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/srv/ftp ; USER=root ; COMMAND=/bin/bash
+May  6 13:22:06 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  6 13:23:00 ubuntu sshd[861]: Received disconnect from 192.168.0.7 port 58140:11: disconnected by user
+May  6 13:23:00 ubuntu sshd[861]: Disconnected from user ubuntu 192.168.0.7 port 58140
+May  6 13:23:00 ubuntu sshd[836]: pam_unix(sshd:session): session closed for user ubuntu
+May  6 13:23:00 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  6 13:23:00 ubuntu systemd-logind[566]: Removed session 5.
+May  6 13:23:20 ubuntu sshd[893]: Accepted publickey for ubuntu from 192.168.0.7 port 58162 ssh2: RSA SHA256:okZE08FcP2ZfYaI2K/+9rpODBLETE8Hat3DG++2cKWM
+May  6 13:23:20 ubuntu sshd[893]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 13:23:20 ubuntu systemd-logind[566]: New session 6 of user ubuntu.
+May  6 13:23:30 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May  6 13:23:30 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  6 13:43:30 ubuntu sshd[943]: Connection closed by authenticating user root 192.168.0.7 port 58406 [preauth]
+May  6 13:43:43 ubuntu sshd[945]: Accepted publickey for ubuntu from 192.168.0.7 port 58408 ssh2: RSA SHA256:okZE08FcP2ZfYaI2K/+9rpODBLETE8Hat3DG++2cKWM
+May  6 13:43:43 ubuntu sshd[945]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 13:43:43 ubuntu systemd-logind[566]: New session 7 of user ubuntu.
+May  6 13:43:43 ubuntu sshd[970]: Received disconnect from 192.168.0.7 port 58408:11: disconnected by user
+May  6 13:43:43 ubuntu sshd[970]: Disconnected from user ubuntu 192.168.0.7 port 58408
+May  6 13:43:43 ubuntu sshd[945]: pam_unix(sshd:session): session closed for user ubuntu
+May  6 13:43:43 ubuntu systemd-logind[566]: Removed session 7.
+May  6 13:55:47 ubuntu sshd[989]: Accepted publickey for ubuntu from 192.168.0.7 port 58556 ssh2: RSA SHA256:okZE08FcP2ZfYaI2K/+9rpODBLETE8Hat3DG++2cKWM
+May  6 13:55:47 ubuntu sshd[989]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 13:55:47 ubuntu systemd-logind[566]: New session 8 of user ubuntu.
+May  6 13:58:16 ubuntu sudo:   ubuntu : TTY=pts/1 ; PWD=/home/ubuntu/.ssh ; USER=root ; COMMAND=/bin/nano authorized_keys
+May  6 13:58:16 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  6 13:58:51 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  6 14:00:27 ubuntu sshd[1014]: Received disconnect from 192.168.0.7 port 58556:11: disconnected by user
+May  6 14:00:27 ubuntu sshd[1014]: Disconnected from user ubuntu 192.168.0.7 port 58556
+May  6 14:00:27 ubuntu sshd[989]: pam_unix(sshd:session): session closed for user ubuntu
+May  6 14:00:27 ubuntu systemd-logind[566]: Removed session 8.
+May  6 14:00:33 ubuntu sshd[1043]: Connection closed by authenticating user ubuntu 192.168.0.7 port 58588 [preauth]
+May  6 14:00:50 ubuntu sshd[1047]: Connection closed by authenticating user ubuntu 192.168.0.7 port 58590 [preauth]
+May  6 14:03:40 ubuntu sshd[1049]: Connection closed by authenticating user ubuntu 192.168.0.7 port 58612 [preauth]
+May  6 14:07:19 ubuntu sshd[1052]: Connection closed by authenticating user ubuntu 192.168.0.7 port 58642 [preauth]
+May  6 14:08:28 ubuntu sshd[1054]: Accepted publickey for ubuntu from 192.168.0.7 port 58648 ssh2: RSA SHA256:mdADafpaqWacu15xHsTT12gYUyIORGzkzlxTaSY06n0
+May  6 14:08:28 ubuntu sshd[1054]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 14:08:28 ubuntu systemd-logind[566]: New session 9 of user ubuntu.
+May  6 14:08:48 ubuntu sshd[1079]: Received disconnect from 192.168.0.7 port 58648:11: disconnected by user
+May  6 14:08:48 ubuntu sshd[1079]: Disconnected from user ubuntu 192.168.0.7 port 58648
+May  6 14:08:48 ubuntu sshd[1054]: pam_unix(sshd:session): session closed for user ubuntu
+May  6 14:08:48 ubuntu systemd-logind[566]: Removed session 9.
+May  6 14:09:01 ubuntu sshd[1092]: Connection closed by authenticating user ubuntu 192.168.0.7 port 58650 [preauth]
+May  6 14:09:11 ubuntu sshd[1094]: Accepted publickey for ubuntu from 192.168.0.7 port 58660 ssh2: RSA SHA256:mdADafpaqWacu15xHsTT12gYUyIORGzkzlxTaSY06n0
+May  6 14:09:11 ubuntu sshd[1094]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 14:09:11 ubuntu systemd-logind[566]: New session 10 of user ubuntu.
+May  6 14:09:15 ubuntu sshd[1119]: Received disconnect from 192.168.0.7 port 58660:11: disconnected by user
+May  6 14:09:15 ubuntu sshd[1119]: Disconnected from user ubuntu 192.168.0.7 port 58660
+May  6 14:09:15 ubuntu sshd[1094]: pam_unix(sshd:session): session closed for user ubuntu
+May  6 14:09:15 ubuntu systemd-logind[566]: Removed session 10.
+May  6 14:09:49 ubuntu sshd[1131]: Accepted publickey for ubuntu from 192.168.0.7 port 58666 ssh2: RSA SHA256:mdADafpaqWacu15xHsTT12gYUyIORGzkzlxTaSY06n0
+May  6 14:09:49 ubuntu sshd[1131]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 14:09:49 ubuntu systemd-logind[566]: New session 11 of user ubuntu.
+May  6 14:09:59 ubuntu sshd[1156]: Received disconnect from 192.168.0.7 port 58666:11: disconnected by user
+May  6 14:09:59 ubuntu sshd[1156]: Disconnected from user ubuntu 192.168.0.7 port 58666
+May  6 14:09:59 ubuntu sshd[1131]: pam_unix(sshd:session): session closed for user ubuntu
+May  6 14:09:59 ubuntu systemd-logind[566]: Removed session 11.
+May  6 14:10:06 ubuntu sshd[1170]: Accepted publickey for ubuntu from 192.168.0.7 port 58668 ssh2: RSA SHA256:mdADafpaqWacu15xHsTT12gYUyIORGzkzlxTaSY06n0
+May  6 14:10:06 ubuntu sshd[1170]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 14:10:06 ubuntu systemd-logind[566]: New session 12 of user ubuntu.
+May  6 14:10:08 ubuntu sshd[1195]: Received disconnect from 192.168.0.7 port 58668:11: disconnected by user
+May  6 14:10:08 ubuntu sshd[1195]: Disconnected from user ubuntu 192.168.0.7 port 58668
+May  6 14:10:08 ubuntu sshd[1170]: pam_unix(sshd:session): session closed for user ubuntu
+May  6 14:10:08 ubuntu systemd-logind[566]: Removed session 12.
+May  6 14:15:11 ubuntu sshd[1213]: Connection closed by authenticating user ubuntu 192.168.0.7 port 58718 [preauth]
+May  6 14:15:58 ubuntu sshd[1215]: Connection closed by authenticating user ubuntu 192.168.0.7 port 58720 [preauth]
+May  6 14:17:01 ubuntu CRON[1217]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 14:17:01 ubuntu CRON[1217]: pam_unix(cron:session): session closed for user root
+May  6 14:19:13 ubuntu sshd[1220]: Accepted publickey for ubuntu from 192.168.0.7 port 40549 ssh2: RSA SHA256:mdADafpaqWacu15xHsTT12gYUyIORGzkzlxTaSY06n0
+May  6 14:19:13 ubuntu sshd[1220]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 14:19:13 ubuntu systemd-logind[566]: New session 14 of user ubuntu.
+May  6 14:23:45 ubuntu sshd[918]: Received disconnect from 192.168.0.7 port 58162:11: disconnected by user
+May  6 14:23:45 ubuntu sshd[918]: Disconnected from user ubuntu 192.168.0.7 port 58162
+May  6 14:23:45 ubuntu sshd[893]: pam_unix(sshd:session): session closed for user ubuntu
+May  6 14:23:45 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  6 14:23:45 ubuntu systemd-logind[566]: Removed session 6.
+May  6 14:23:45 ubuntu sshd[1220]: pam_unix(sshd:session): session closed for user ubuntu
+May  6 14:23:45 ubuntu systemd-logind[566]: Removed session 14.
+May  6 14:24:42 ubuntu sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/init 0
+May  6 14:24:42 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  6 14:24:42 ubuntu sshd[832]: Received signal 15; terminating.
+May  6 14:24:42 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  6 14:24:42 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  6 14:59:59 ubuntu sshd[506]: Server listening on 0.0.0.0 port 22.
+May  6 14:59:59 ubuntu sshd[506]: Server listening on :: port 22.
+May  6 14:59:59 ubuntu systemd-logind[502]: New seat seat0.
+May  6 14:59:59 ubuntu systemd-logind[502]: Watching system buttons on /dev/input/event0 (Power Button)
+May  6 14:59:59 ubuntu systemd-logind[502]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May  6 15:00:08 ubuntu login[527]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May  6 15:00:08 ubuntu systemd-logind[502]: New session 1 of user ubuntu.
+May  6 15:00:08 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May  6 15:00:30 ubuntu sshd[615]: Accepted publickey for ubuntu from 192.168.0.7 port 35562 ssh2: RSA SHA256:mdADafpaqWacu15xHsTT12gYUyIORGzkzlxTaSY06n0
+May  6 15:00:30 ubuntu sshd[615]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 15:00:30 ubuntu systemd-logind[502]: New session 3 of user ubuntu.
+May  6 15:00:51 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May  6 15:00:51 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  6 15:01:10 ubuntu groupadd[821]: group added to /etc/group: name=telnetd, GID=115
+May  6 15:01:10 ubuntu groupadd[821]: group added to /etc/gshadow: name=telnetd
+May  6 15:01:10 ubuntu groupadd[821]: new group: name=telnetd, GID=115
+May  6 15:01:10 ubuntu useradd[825]: new user: name=telnetd, UID=108, GID=115, home=/nonexistent, shell=/usr/sbin/nologin
+May  6 15:01:10 ubuntu usermod[831]: change user 'telnetd' password
+May  6 15:01:10 ubuntu chage[836]: changed password expiry for telnetd
+May  6 15:01:10 ubuntu gpasswd[840]: user telnetd added by root to group utmp
+May  6 15:04:38 ubuntu xinetd[1237]: START: telnet pid=1255 from=::ffff:192.168.0.7
+May  6 15:04:48 ubuntu xinetd[1237]: START: telnet pid=1256 from=::ffff:192.168.0.7
+May  6 15:05:38 ubuntu sshd[1259]: Bad protocol version identification 'ls' from 192.168.0.7 port 35640
+May  6 15:07:56 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  6 15:07:58 ubuntu sshd[640]: Received disconnect from 192.168.0.7 port 35562:11: disconnected by user
+May  6 15:07:58 ubuntu sshd[640]: Disconnected from user ubuntu 192.168.0.7 port 35562
+May  6 15:07:58 ubuntu sshd[615]: pam_unix(sshd:session): session closed for user ubuntu
+May  6 15:07:58 ubuntu systemd-logind[502]: Removed session 3.
+May  6 15:08:16 ubuntu xinetd[1237]: START: telnet pid=1263 from=::ffff:192.168.0.7
+May  6 15:09:26 ubuntu sshd[1264]: Accepted publickey for ubuntu from 192.168.0.7 port 35778 ssh2: RSA SHA256:mdADafpaqWacu15xHsTT12gYUyIORGzkzlxTaSY06n0
+May  6 15:09:26 ubuntu sshd[1264]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 15:09:26 ubuntu systemd-logind[502]: New session 4 of user ubuntu.
+May  6 15:09:31 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May  6 15:09:31 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  6 15:10:17 ubuntu userdel[1433]: delete user 'telnetd'
+May  6 15:10:17 ubuntu userdel[1433]: delete 'telnetd' from group 'utmp'
+May  6 15:10:17 ubuntu userdel[1433]: removed group 'telnetd' owned by 'telnetd'
+May  6 15:10:17 ubuntu userdel[1433]: removed shadow group 'telnetd' owned by 'telnetd'
+May  6 15:10:17 ubuntu userdel[1433]: delete 'telnetd' from shadow group 'utmp'
+May  6 15:11:06 ubuntu groupadd[1744]: group added to /etc/group: name=telnetd, GID=115
+May  6 15:11:06 ubuntu groupadd[1744]: group added to /etc/gshadow: name=telnetd
+May  6 15:11:06 ubuntu groupadd[1744]: new group: name=telnetd, GID=115
+May  6 15:11:06 ubuntu useradd[1748]: new user: name=telnetd, UID=108, GID=115, home=/nonexistent, shell=/usr/sbin/nologin
+May  6 15:11:06 ubuntu usermod[1754]: change user 'telnetd' password
+May  6 15:11:06 ubuntu chage[1759]: changed password expiry for telnetd
+May  6 15:11:06 ubuntu gpasswd[1763]: user telnetd added by root to group utmp
+May  6 15:13:58 ubuntu login[2109]: pam_unix(login:session): session opened for user ubuntu by (uid=0)
+May  6 15:13:58 ubuntu systemd-logind[502]: New session 5 of user ubuntu.
+May  6 15:16:24 ubuntu systemd-logind[531]: New seat seat0.
+May  6 15:16:24 ubuntu systemd-logind[531]: Watching system buttons on /dev/input/event0 (Power Button)
+May  6 15:16:24 ubuntu systemd-logind[531]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May  6 15:16:24 ubuntu sshd[580]: Server listening on 0.0.0.0 port 22.
+May  6 15:16:24 ubuntu sshd[580]: Server listening on :: port 22.
+May  6 15:16:31 ubuntu sshd[586]: Accepted publickey for ubuntu from 192.168.0.7 port 33086 ssh2: RSA SHA256:mdADafpaqWacu15xHsTT12gYUyIORGzkzlxTaSY06n0
+May  6 15:16:31 ubuntu sshd[586]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May  6 15:16:31 ubuntu systemd-logind[531]: New session 1 of user ubuntu.
+May  6 15:16:31 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May  6 15:17:01 ubuntu CRON[629]: pam_unix(cron:session): session opened for user root by (uid=0)
+May  6 15:17:01 ubuntu CRON[629]: pam_unix(cron:session): session closed for user root
+May  6 15:17:06 ubuntu login[628]: pam_unix(login:session): session opened for user ubuntu by (uid=0)
+May  6 15:17:06 ubuntu systemd-logind[531]: New session 4 of user ubuntu.
+May  6 15:17:11 ubuntu login[628]: pam_unix(login:session): session closed for user ubuntu
+May  6 15:17:11 ubuntu systemd-logind[531]: Removed session 4.
+May  6 15:28:32 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/etc/init.d ; USER=root ; COMMAND=/etc/init.d/openbsd-inetd restart
+May  6 15:28:32 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  6 15:28:32 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  6 15:29:09 ubuntu sshd[616]: Received disconnect from 192.168.0.7 port 33086:11: disconnected by user
+May  6 15:29:09 ubuntu sshd[616]: Disconnected from user ubuntu 192.168.0.7 port 33086
+May  6 15:29:09 ubuntu sshd[586]: pam_unix(sshd:session): session closed for user ubuntu
+May  6 15:29:09 ubuntu systemd-logind[531]: Removed session 1.
+May  6 15:29:19 ubuntu login[791]: pam_securetty(login:auth): access denied: tty '/dev/pts/0' is not secure !
+May  6 15:29:23 ubuntu login[791]: FAILED LOGIN (1) on '/dev/pts/0' from '192.168.0.7' FOR 'root', Authentication failure
+May  6 15:29:23 ubuntu login[791]: pam_securetty(login:auth): access denied: tty '/dev/pts/0' is not secure !
+May  6 15:29:25 ubuntu login[791]: pam_unix(login:auth): check pass; user unknown
+May  6 15:29:25 ubuntu login[791]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=192.168.0.7
+May  6 15:29:29 ubuntu login[791]: FAILED LOGIN (2) on '/dev/pts/0' from '192.168.0.7' FOR 'UNKNOWN', User not known to the underlying authentication module
+May  6 15:29:33 ubuntu login[791]: pam_unix(login:session): session opened for user ubuntu by (uid=0)
+May  6 15:29:33 ubuntu systemd-logind[531]: New session 5 of user ubuntu.
+May  6 15:29:33 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May  6 15:29:35 ubuntu systemd-logind[531]: Removed session 5.
+                                                                                                                                                                                                                                                                                                                                                                                                                                     May  7 19:49:00 ubuntu systemd-logind[556]: New seat seat0.
+May  7 19:49:00 ubuntu systemd-logind[556]: Watching system buttons on /dev/input/event0 (Power Button)
+May  7 19:49:00 ubuntu systemd-logind[556]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May  7 19:49:00 ubuntu sshd[579]: Server listening on 0.0.0.0 port 22.
+May  7 19:49:00 ubuntu sshd[579]: Server listening on :: port 22.
+May  7 19:54:49 ubuntu login[580]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=ubuntu
+May  7 19:54:52 ubuntu login[580]: FAILED LOGIN (1) on '/dev/tty1' FOR 'ubuntu', Authentication failure
+May  7 19:55:03 ubuntu login[580]: FAILED LOGIN (2) on '/dev/tty1' FOR 'ubuntu', Authentication failure
+May  7 19:55:09 ubuntu login[580]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May  7 19:55:09 ubuntu systemd-logind[556]: New session 1 of user ubuntu.
+May  7 19:55:09 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May  7 19:57:53 ubuntu sshd[638]: Did not receive identification string from 192.168.0.6 port 56012
+May  8 13:26:42 ubuntu systemd-logind[580]: New seat seat0.
+May  8 13:26:42 ubuntu systemd-logind[580]: Watching system buttons on /dev/input/event0 (Power Button)
+May  8 13:26:42 ubuntu systemd-logind[580]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May  8 13:26:42 ubuntu sshd[593]: Server listening on 0.0.0.0 port 22.
+May  8 13:26:42 ubuntu sshd[593]: Server listening on :: port 22.
+May  8 13:27:05 ubuntu login[591]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=ubuntu
+May  8 13:27:08 ubuntu login[591]: FAILED LOGIN (1) on '/dev/tty1' FOR 'ubuntu', Authentication failure
+May  8 13:27:21 ubuntu login[591]: FAILED LOGIN (2) on '/dev/tty1' FOR 'ubuntu', Authentication failure
+May  8 13:27:30 ubuntu login[591]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May  8 13:27:30 ubuntu systemd-logind[580]: New session 1 of user ubuntu.
+May  8 13:27:30 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May  8 13:28:22 ubuntu login[760]: pam_unix(login:session): session opened for user ubuntu by (uid=0)
+May  8 13:28:22 ubuntu systemd-logind[580]: New session 3 of user ubuntu.
+May  8 13:29:37 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/etc/init.d/openbsd-inetd restart
+May  8 13:29:37 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May  8 13:29:37 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May  8 20:58:41 ubuntu systemd-logind[549]: New seat seat0.
+May  8 20:58:41 ubuntu systemd-logind[549]: Watching system buttons on /dev/input/event0 (Power Button)
+May  8 20:58:41 ubuntu systemd-logind[549]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May  8 20:58:41 ubuntu sshd[572]: Server listening on 0.0.0.0 port 22.
+May  8 20:58:41 ubuntu sshd[572]: Server listening on :: port 22.
+May  8 20:59:48 ubuntu login[582]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May  8 20:59:48 ubuntu systemd-logind[549]: New session 1 of user ubuntu.
+May  8 20:59:48 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May  8 21:00:21 ubuntu sudo:   ubuntu : TTY=tty1 ; PWD=/srv/ftp ; USER=root ; COMMAND=/bin/bash
+May  8 21:00:21 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 13 18:56:41 ubuntu systemd-logind[515]: New seat seat0.
+May 13 18:56:41 ubuntu systemd-logind[515]: Watching system buttons on /dev/input/event0 (Power Button)
+May 13 18:56:41 ubuntu systemd-logind[515]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May 13 18:56:41 ubuntu sshd[568]: Server listening on 0.0.0.0 port 22.
+May 13 18:56:41 ubuntu sshd[568]: Server listening on :: port 22.
+May 13 18:57:01 ubuntu login[570]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May 13 18:57:01 ubuntu systemd-logind[515]: New session 1 of user ubuntu.
+May 13 18:57:01 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May 15 14:08:12 ubuntu systemd-logind[553]: New seat seat0.
+May 15 14:08:12 ubuntu systemd-logind[553]: Watching system buttons on /dev/input/event0 (Power Button)
+May 15 14:08:12 ubuntu systemd-logind[553]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May 15 14:08:12 ubuntu sshd[569]: Server listening on 0.0.0.0 port 22.
+May 15 14:08:12 ubuntu sshd[569]: Server listening on :: port 22.
+May 15 14:08:19 ubuntu login[570]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May 15 14:08:19 ubuntu systemd-logind[553]: New session 1 of user ubuntu.
+May 15 14:08:19 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May 15 14:17:01 ubuntu CRON[736]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 15 14:17:01 ubuntu CRON[736]: pam_unix(cron:session): session closed for user root
+May 17 19:56:31 ubuntu systemd-logind[532]: New seat seat0.
+May 17 19:56:31 ubuntu systemd-logind[532]: Watching system buttons on /dev/input/event0 (Power Button)
+May 17 19:56:31 ubuntu systemd-logind[532]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May 17 19:56:31 ubuntu sshd[545]: Server listening on 0.0.0.0 port 22.
+May 17 19:56:31 ubuntu sshd[545]: Server listening on :: port 22.
+May 17 20:01:37 ubuntu login[578]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May 17 20:01:37 ubuntu systemd-logind[532]: New session 1 of user ubuntu.
+May 17 20:01:37 ubuntu systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May 17 20:02:25 ubuntu sshd[744]: Accepted publickey for ubuntu from 192.168.0.7 port 47666 ssh2: RSA SHA256:mdADafpaqWacu15xHsTT12gYUyIORGzkzlxTaSY06n0
+May 17 20:02:25 ubuntu sshd[744]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May 17 20:02:25 ubuntu systemd-logind[532]: New session 3 of user ubuntu.
+May 17 20:02:31 ubuntu sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May 17 20:02:31 ubuntu sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 17 20:05:36 ubuntu groupadd[993]: group added to /etc/group: name=postfix, GID=116
+May 17 20:05:36 ubuntu groupadd[993]: group added to /etc/gshadow: name=postfix
+May 17 20:05:36 ubuntu groupadd[993]: new group: name=postfix, GID=116
+May 17 20:05:36 ubuntu useradd[999]: new user: name=postfix, UID=109, GID=116, home=/var/spool/postfix, shell=/usr/sbin/nologin
+May 17 20:05:36 ubuntu usermod[1005]: change user 'postfix' password
+May 17 20:05:36 ubuntu chage[1010]: changed password expiry for postfix
+May 17 20:05:36 ubuntu groupadd[1054]: group added to /etc/group: name=postdrop, GID=117
+May 17 20:05:36 ubuntu groupadd[1054]: group added to /etc/gshadow: name=postdrop
+May 17 20:05:36 ubuntu groupadd[1054]: new group: name=postdrop, GID=117
+May 17 20:08:29 ubuntu sshd[744]: pam_unix(sshd:session): session closed for user ubuntu
+May 17 20:08:29 ubuntu sudo: pam_unix(sudo:session): session closed for user root
+May 17 20:08:30 ubuntu systemd: pam_unix(systemd-user:session): session closed for user ubuntu
+May 17 20:08:39 hackershala sshd[539]: Server listening on 0.0.0.0 port 22.
+May 17 20:08:39 hackershala sshd[539]: Server listening on :: port 22.
+May 17 20:08:39 hackershala systemd-logind[522]: New seat seat0.
+May 17 20:08:39 hackershala systemd-logind[522]: Watching system buttons on /dev/input/event0 (Power Button)
+May 17 20:08:39 hackershala systemd-logind[522]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May 17 20:08:47 hackershala sshd[647]: Accepted publickey for ubuntu from 192.168.0.7 port 47730 ssh2: RSA SHA256:mdADafpaqWacu15xHsTT12gYUyIORGzkzlxTaSY06n0
+May 17 20:08:47 hackershala sshd[647]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May 17 20:08:47 hackershala systemd-logind[522]: New session 1 of user ubuntu.
+May 17 20:08:47 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May 17 20:08:52 hackershala sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May 17 20:08:52 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 17 20:15:20 hackershala groupadd[1695]: group added to /etc/group: name=dovecot, GID=118
+May 17 20:15:20 hackershala groupadd[1695]: group added to /etc/gshadow: name=dovecot
+May 17 20:15:20 hackershala groupadd[1695]: new group: name=dovecot, GID=118
+May 17 20:15:20 hackershala useradd[1699]: new user: name=dovecot, UID=110, GID=118, home=/usr/lib/dovecot, shell=/usr/sbin/nologin
+May 17 20:15:20 hackershala usermod[1705]: change user 'dovecot' password
+May 17 20:15:20 hackershala chage[1710]: changed password expiry for dovecot
+May 17 20:15:20 hackershala chfn[1713]: changed user 'dovecot' information
+May 17 20:15:20 hackershala groupadd[1718]: group added to /etc/group: name=dovenull, GID=119
+May 17 20:15:20 hackershala groupadd[1718]: group added to /etc/gshadow: name=dovenull
+May 17 20:15:20 hackershala groupadd[1718]: new group: name=dovenull, GID=119
+May 17 20:15:20 hackershala useradd[1722]: new user: name=dovenull, UID=111, GID=119, home=/nonexistent, shell=/usr/sbin/nologin
+May 17 20:15:20 hackershala usermod[1728]: change user 'dovenull' password
+May 17 20:15:20 hackershala chage[1733]: changed password expiry for dovenull
+May 17 20:15:20 hackershala chfn[1736]: changed user 'dovenull' information
+May 17 20:17:01 hackershala CRON[5174]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 17 20:17:01 hackershala CRON[5174]: pam_unix(cron:session): session closed for user root
+May 17 20:22:09 hackershala su[5180]: Successful su for ubuntu by root
+May 17 20:22:09 hackershala su[5180]: + /dev/pts/0 root:ubuntu
+May 17 20:22:09 hackershala su[5180]: pam_unix(su:session): session opened for user ubuntu by ubuntu(uid=0)
+May 17 20:22:09 hackershala su[5180]: pam_systemd(su:session): Cannot create session: Already running in a session
+May 17 20:22:34 hackershala sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May 17 20:22:34 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 17 20:28:43 hackershala su[6436]: Successful su for ubuntu by root
+May 17 20:28:43 hackershala su[6436]: + /dev/pts/0 root:ubuntu
+May 17 20:28:43 hackershala su[6436]: pam_unix(su:session): session opened for user ubuntu by ubuntu(uid=0)
+May 17 20:28:43 hackershala su[6436]: pam_systemd(su:session): Cannot create session: Already running in a session
+May 17 20:31:18 hackershala sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May 17 20:31:18 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 24 08:48:16 hackershala systemd-logind[494]: New seat seat0.
+May 24 08:48:16 hackershala systemd-logind[494]: Watching system buttons on /dev/input/event0 (Power Button)
+May 24 08:48:16 hackershala systemd-logind[494]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May 24 08:48:16 hackershala sshd[559]: Server listening on 0.0.0.0 port 22.
+May 24 08:48:16 hackershala sshd[559]: Server listening on :: port 22.
+May 24 09:07:42 hackershala login[551]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May 24 09:07:42 hackershala systemd-logind[494]: New session 1 of user ubuntu.
+May 24 09:07:42 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May 24 09:07:54 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May 24 09:07:54 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 24 09:08:47 hackershala groupadd[1049]: group added to /etc/group: name=snort, GID=120
+May 24 09:08:47 hackershala groupadd[1049]: group added to /etc/gshadow: name=snort
+May 24 09:08:47 hackershala groupadd[1049]: new group: name=snort, GID=120
+May 24 09:08:47 hackershala useradd[1057]: new user: name=snort, UID=112, GID=120, home=/home/snort, shell=/usr/sbin/nologin
+May 24 09:08:47 hackershala usermod[1063]: change user 'snort' password
+May 24 09:08:47 hackershala chage[1068]: changed password expiry for snort
+May 24 09:08:47 hackershala usermod[1071]: change user 'snort' home from '/home/snort' to '/var/log/snort'
+May 24 18:44:10 hackershala systemd-logind[584]: New seat seat0.
+May 24 18:44:10 hackershala systemd-logind[584]: Watching system buttons on /dev/input/event0 (Power Button)
+May 24 18:44:10 hackershala systemd-logind[584]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May 24 18:44:10 hackershala sshd[603]: Server listening on 0.0.0.0 port 22.
+May 24 18:44:10 hackershala sshd[603]: Server listening on :: port 22.
+May 24 18:44:19 hackershala login[604]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May 24 18:44:19 hackershala systemd-logind[584]: New session 1 of user ubuntu.
+May 24 18:44:19 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May 24 18:44:25 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May 24 18:44:25 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 24 19:09:06 hackershala userdel[1007]: delete user 'snort'
+May 24 19:09:06 hackershala userdel[1007]: removed group 'snort' owned by 'snort'
+May 24 19:09:06 hackershala userdel[1007]: removed shadow group 'snort' owned by 'snort'
+May 24 19:17:01 hackershala CRON[5245]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 24 19:17:01 hackershala CRON[5245]: pam_unix(cron:session): session closed for user root
+May 24 19:22:16 hackershala systemd-logind[517]: New seat seat0.
+May 24 19:22:16 hackershala systemd-logind[517]: Watching system buttons on /dev/input/event0 (Power Button)
+May 24 19:22:16 hackershala systemd-logind[517]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May 24 19:22:16 hackershala sshd[550]: Server listening on 0.0.0.0 port 22.
+May 24 19:22:16 hackershala sshd[550]: Server listening on :: port 22.
+May 24 19:22:23 hackershala login[582]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May 24 19:22:23 hackershala systemd-logind[517]: New session 1 of user ubuntu.
+May 24 19:22:23 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May 24 19:22:26 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May 24 19:22:26 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 24 19:35:50 hackershala groupadd[8993]: group added to /etc/group: name=snort, GID=120
+May 24 19:35:50 hackershala groupadd[8993]: group added to /etc/gshadow: name=snort
+May 24 19:35:50 hackershala groupadd[8993]: new group: name=snort, GID=120
+May 24 19:35:50 hackershala useradd[9001]: new user: name=snort, UID=112, GID=120, home=/home/snort, shell=/usr/sbin/nologin
+May 24 19:35:50 hackershala usermod[9007]: change user 'snort' password
+May 24 19:35:50 hackershala chage[9012]: changed password expiry for snort
+May 24 19:35:50 hackershala usermod[9015]: change user 'snort' home from '/home/snort' to '/var/log/snort'
+May 24 20:17:01 hackershala CRON[9641]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 24 20:17:01 hackershala CRON[9641]: pam_unix(cron:session): session closed for user root
+May 25 12:54:19 hackershala sshd[529]: Server listening on 0.0.0.0 port 22.
+May 25 12:54:19 hackershala sshd[529]: Server listening on :: port 22.
+May 25 12:54:19 hackershala systemd-logind[513]: New seat seat0.
+May 25 12:54:19 hackershala systemd-logind[513]: Watching system buttons on /dev/input/event0 (Power Button)
+May 25 12:54:19 hackershala systemd-logind[513]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May 25 12:54:38 hackershala login[586]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May 25 12:54:38 hackershala systemd-logind[513]: New session 1 of user ubuntu.
+May 25 12:54:38 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May 25 12:54:46 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May 25 12:54:46 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 25 12:55:47 hackershala sshd[963]: Accepted publickey for ubuntu from 192.168.0.7 port 59282 ssh2: RSA SHA256:mdADafpaqWacu15xHsTT12gYUyIORGzkzlxTaSY06n0
+May 25 12:55:47 hackershala sshd[963]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)
+May 25 12:55:47 hackershala systemd-logind[513]: New session 3 of user ubuntu.
+May 25 12:55:52 hackershala sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May 25 12:55:52 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 25 13:17:02 hackershala CRON[1040]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 25 13:17:02 hackershala CRON[1040]: pam_unix(cron:session): session closed for user root
+                                                                                                                May 28 12:10:57 hackershala systemd-logind[563]: New seat seat0.
+May 28 12:10:57 hackershala systemd-logind[563]: Watching system buttons on /dev/input/event0 (Power Button)
+May 28 12:10:57 hackershala systemd-logind[563]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May 28 12:10:57 hackershala sshd[573]: Server listening on 0.0.0.0 port 22.
+May 28 12:10:57 hackershala sshd[573]: Server listening on :: port 22.
+May 28 12:11:16 hackershala login[574]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May 28 12:11:16 hackershala systemd-logind[563]: New session 1 of user ubuntu.
+May 28 12:11:16 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May 28 12:11:25 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/sbin/init 0
+May 28 12:11:25 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 28 12:11:25 hackershala sudo: pam_unix(sudo:session): session closed for user root
+May 28 12:14:07 hackershala sshd[576]: Server listening on 0.0.0.0 port 22.
+May 28 12:14:07 hackershala sshd[576]: Server listening on :: port 22.
+May 28 12:14:07 hackershala systemd-logind[569]: New seat seat0.
+May 28 12:14:07 hackershala systemd-logind[569]: Watching system buttons on /dev/input/event0 (Power Button)
+May 28 12:14:07 hackershala systemd-logind[569]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May 28 12:14:39 hackershala login[585]: pam_unix(login:auth): check pass; user unknown
+May 28 12:14:39 hackershala login[585]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+May 28 12:14:42 hackershala login[585]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+May 28 12:14:51 hackershala login[585]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May 28 12:14:51 hackershala systemd-logind[569]: New session 1 of user ubuntu.
+May 28 12:14:51 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May 28 12:14:56 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May 28 12:14:56 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 28 12:17:01 hackershala CRON[828]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 28 12:17:01 hackershala CRON[828]: pam_unix(cron:session): session closed for user root
+May 28 12:45:34 hackershala systemd-logind[507]: New seat seat0.
+May 28 12:45:34 hackershala systemd-logind[507]: Watching system buttons on /dev/input/event0 (Power Button)
+May 28 12:45:34 hackershala systemd-logind[507]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May 28 12:45:33 hackershala sshd[535]: Server listening on 0.0.0.0 port 22.
+May 28 12:45:33 hackershala sshd[535]: Server listening on :: port 22.
+May 28 12:45:42 hackershala login[567]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May 28 12:45:42 hackershala systemd-logind[507]: New session 1 of user ubuntu.
+May 28 12:45:42 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May 28 12:45:47 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+May 28 12:45:47 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 28 12:46:20 hackershala sshd[535]: Received signal 15; terminating.
+May 28 12:46:20 hackershala sudo: pam_unix(sudo:session): session closed for user root
+May 29 11:22:40 hackershala sshd[561]: Server listening on 0.0.0.0 port 22.
+May 29 11:22:40 hackershala sshd[561]: Server listening on :: port 22.
+May 29 11:22:40 hackershala systemd-logind[549]: New seat seat0.
+May 29 11:22:40 hackershala systemd-logind[549]: Watching system buttons on /dev/input/event0 (Power Button)
+May 29 11:22:40 hackershala systemd-logind[549]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+May 29 11:22:53 hackershala login[573]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+May 29 11:22:53 hackershala systemd-logind[549]: New session 1 of user ubuntu.
+May 29 11:22:53 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+May 29 11:23:21 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/find /home -exec /bin/bash ;
+May 29 11:23:21 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+May 29 11:23:39 hackershala su[976]: Successful su for ubuntu by root
+May 29 11:23:39 hackershala su[976]: + /dev/tty1 root:ubuntu
+May 29 11:23:39 hackershala su[976]: pam_unix(su:session): session opened for user ubuntu by ubuntu(uid=0)
+May 29 11:23:39 hackershala su[976]: pam_systemd(su:session): Cannot create session: Already running in a session
+May 29 11:23:43 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=list
+                                                                                                                                                                                                                 Jun  1 18:29:38 hackershala systemd-logind[520]: New seat seat0.
+Jun  1 18:29:38 hackershala systemd-logind[520]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun  1 18:29:38 hackershala systemd-logind[520]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun  1 18:29:38 hackershala sshd[578]: Server listening on 0.0.0.0 port 22.
+Jun  1 18:29:38 hackershala sshd[578]: Server listening on :: port 22.
+Jun  1 18:32:15 hackershala login[576]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun  1 18:32:15 hackershala systemd-logind[520]: New session 1 of user ubuntu.
+Jun  1 18:32:15 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun  1 18:32:23 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Jun  1 18:32:23 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jun  1 19:20:47 hackershala systemd-logind[553]: New seat seat0.
+Jun  1 19:20:47 hackershala systemd-logind[553]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun  1 19:20:47 hackershala systemd-logind[553]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun  1 19:20:47 hackershala sshd[580]: Server listening on 0.0.0.0 port 22.
+Jun  1 19:20:47 hackershala sshd[580]: Server listening on :: port 22.
+Jun  1 19:21:03 hackershala login[592]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun  1 19:21:03 hackershala systemd-logind[553]: New session 1 of user ubuntu.
+Jun  1 19:21:03 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun  1 19:24:23 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Jun  1 19:24:23 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jun  1 19:25:27 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun  1 19:25:37 hackershala systemd-logind[505]: New seat seat0.
+Jun  1 19:25:37 hackershala systemd-logind[505]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun  1 19:25:37 hackershala systemd-logind[505]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun  1 19:25:37 hackershala sshd[555]: Server listening on 0.0.0.0 port 22.
+Jun  1 19:25:37 hackershala sshd[555]: Server listening on :: port 22.
+Jun  1 19:25:50 hackershala login[588]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun  1 19:25:50 hackershala systemd-logind[505]: New session 1 of user ubuntu.
+Jun  1 19:25:50 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun  1 19:25:53 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Jun  1 19:25:53 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jun  2 13:25:36 hackershala sshd[583]: Server listening on 0.0.0.0 port 22.
+Jun  2 13:25:36 hackershala sshd[583]: Server listening on :: port 22.
+Jun  2 13:25:36 hackershala systemd-logind[572]: New seat seat0.
+Jun  2 13:25:36 hackershala systemd-logind[572]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun  2 13:25:36 hackershala systemd-logind[572]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun  2 13:25:55 hackershala login[585]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun  2 13:25:55 hackershala systemd-logind[572]: New session 1 of user ubuntu.
+Jun  2 13:25:55 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun 10 23:40:11 hackershala systemd-logind[538]: New seat seat0.
+Jun 10 23:40:11 hackershala systemd-logind[538]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 10 23:40:11 hackershala systemd-logind[538]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 10 23:40:11 hackershala sshd[564]: Server listening on 0.0.0.0 port 22.
+Jun 10 23:40:11 hackershala sshd[564]: Server listening on :: port 22.
+Jun 10 23:40:27 hackershala login[573]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun 10 23:40:27 hackershala systemd-logind[538]: New session 1 of user ubuntu.
+Jun 10 23:40:27 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun 10 23:42:06 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Jun 10 23:42:06 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jun 17 09:12:45 hackershala systemd-logind[541]: New seat seat0.
+Jun 17 09:12:45 hackershala systemd-logind[541]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 17 09:12:45 hackershala systemd-logind[541]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 17 09:12:45 hackershala sshd[574]: Server listening on 0.0.0.0 port 22.
+Jun 17 09:12:45 hackershala sshd[574]: Server listening on :: port 22.
+Jun 17 09:13:25 hackershala login[575]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun 17 09:13:25 hackershala systemd-logind[541]: New session 1 of user ubuntu.
+Jun 17 09:13:25 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun 17 09:17:01 hackershala CRON[928]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 17 09:17:01 hackershala CRON[928]: pam_unix(cron:session): session closed for user root
+Jun 17 09:24:41 hackershala passwd[934]: pam_unix(passwd:chauthtok): password changed for ubuntu
+Jun 17 09:25:33 hackershala login[936]: pam_unix(login:session): session opened for user ubuntu by (uid=0)
+Jun 17 09:25:33 hackershala systemd-logind[541]: New session 4 of user ubuntu.
+Jun 17 09:25:44 hackershala login[936]: pam_unix(login:session): session closed for user ubuntu
+Jun 17 09:25:44 hackershala systemd-logind[541]: Removed session 4.
+Jun 17 09:26:18 hackershala sshd[972]: Connection closed by 192.168.0.6 port 42428 [preauth]
+Jun 17 09:26:40 hackershala sshd[974]: Connection closed by authenticating user root 192.168.0.6 port 42434 [preauth]
+Jun 17 09:27:12 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=list
+Jun 17 09:27:39 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/adduser hsip
+Jun 17 09:27:39 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jun 17 09:27:39 hackershala groupadd[980]: group added to /etc/group: name=hsip, GID=1001
+Jun 17 09:27:39 hackershala groupadd[980]: group added to /etc/gshadow: name=hsip
+Jun 17 09:27:39 hackershala groupadd[980]: new group: name=hsip, GID=1001
+Jun 17 09:27:39 hackershala useradd[984]: new user: name=hsip, UID=1001, GID=1001, home=/home/hsip, shell=/bin/bash
+Jun 17 09:28:54 hackershala passwd[992]: pam_unix(passwd:chauthtok): password changed for hsip
+Jun 17 09:28:57 hackershala chfn[993]: changed user 'hsip' information
+Jun 17 09:28:59 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 17 09:29:16 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/nano /etc/sudoers
+Jun 17 09:29:16 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jun 17 09:36:20 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/nano /etc/sudoers
+Jun 17 09:36:20 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jun 17 09:37:04 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 17 09:37:16 hackershala su[1007]: Successful su for hsip by ubuntu
+Jun 17 09:37:16 hackershala su[1007]: + /dev/tty1 ubuntu:hsip
+Jun 17 09:37:16 hackershala su[1007]: pam_unix(su:session): session opened for user hsip by ubuntu(uid=1000)
+Jun 17 09:37:16 hackershala su[1007]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 17 09:37:20 hackershala sudo:     hsip : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=list
+Jun 17 09:39:52 hackershala sudo:     hsip : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt-get update -o APT::Update::Pre-Invoke::=/bin/sh
+Jun 17 09:39:52 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jun 17 09:43:03 hackershala systemd-logind[560]: New seat seat0.
+Jun 17 09:43:03 hackershala systemd-logind[560]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 17 09:43:03 hackershala systemd-logind[560]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 17 09:43:03 hackershala sshd[576]: Server listening on 0.0.0.0 port 22.
+Jun 17 09:43:03 hackershala sshd[576]: Server listening on :: port 22.
+Jun 17 09:43:56 hackershala login[597]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun 17 09:43:56 hackershala systemd-logind[560]: New session 1 of user ubuntu.
+Jun 17 09:43:56 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun 17 09:44:04 hackershala su[818]: Successful su for hsip by ubuntu
+Jun 17 09:44:04 hackershala su[818]: + /dev/tty1 ubuntu:hsip
+Jun 17 09:44:04 hackershala su[818]: pam_unix(su:session): session opened for user hsip by ubuntu(uid=1000)
+Jun 17 09:44:04 hackershala su[818]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 17 09:45:17 hackershala su[829]: Successful su for ubuntu by hsip
+Jun 17 09:45:17 hackershala su[829]: + /dev/tty1 hsip:ubuntu
+Jun 17 09:45:17 hackershala su[829]: pam_unix(su:session): session opened for user ubuntu by ubuntu(uid=1001)
+Jun 17 09:45:17 hackershala su[829]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 17 09:45:48 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/nano /etc/sudoers
+Jun 17 09:45:48 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jun 17 09:46:15 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 17 09:46:26 hackershala su[843]: Successful su for hsip by ubuntu
+Jun 17 09:46:26 hackershala su[843]: + /dev/tty1 ubuntu:hsip
+Jun 17 09:46:26 hackershala su[843]: pam_unix(su:session): session opened for user hsip by ubuntu(uid=1000)
+Jun 17 09:46:26 hackershala su[843]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 17 09:46:58 hackershala sudo:     hsip : TTY=tty1 ; PWD=/home/hsip ; USER=root ; COMMAND=/usr/bin/find /home -exec /bin/sh \;
+Jun 17 09:46:58 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jun 17 09:46:58 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 17 09:47:50 hackershala sudo:     hsip : TTY=tty1 ; PWD=/home/hsip ; USER=root ; COMMAND=/usr/bin/find /home -exec /bin/sh ;
+Jun 17 09:47:50 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jun 17 09:51:07 hackershala systemd: pam_unix(systemd-user:session): session closed for user ubuntu
+Jun 17 09:51:07 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 17 09:51:07 hackershala su[818]: pam_unix(su:session): session closed for user hsip
+Jun 17 09:51:21 hackershala sshd[587]: Server listening on 0.0.0.0 port 22.
+Jun 17 09:51:21 hackershala sshd[587]: Server listening on :: port 22.
+Jun 17 09:51:21 hackershala systemd-logind[571]: New seat seat0.
+Jun 17 09:51:21 hackershala systemd-logind[571]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 17 09:51:21 hackershala systemd-logind[571]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 17 09:51:39 hackershala login[601]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun 17 09:51:39 hackershala systemd-logind[571]: New session 1 of user ubuntu.
+Jun 17 09:51:39 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun 17 09:53:40 hackershala su[832]: Successful su for hsip by ubuntu
+Jun 17 09:53:40 hackershala su[832]: + /dev/tty1 ubuntu:hsip
+Jun 17 09:53:40 hackershala su[832]: pam_unix(su:session): session opened for user hsip by ubuntu(uid=1000)
+Jun 17 09:53:40 hackershala su[832]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 17 09:55:54 hackershala sshd[845]: Connection closed by authenticating user hsip 192.168.0.6 port 43190 [preauth]
+Jun 17 09:56:24 hackershala su[853]: Successful su for root by hsip
+Jun 17 09:56:24 hackershala su[853]: + /dev/tty1 hsip:root
+Jun 17 09:56:24 hackershala su[853]: pam_unix(su:session): session opened for user root by ubuntu(uid=1001)
+Jun 17 09:56:24 hackershala su[853]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 17 09:59:16 hackershala sshd[587]: Received signal 15; terminating.
+Jun 17 09:59:16 hackershala sshd[876]: Server listening on 0.0.0.0 port 22.
+Jun 17 09:59:16 hackershala sshd[876]: Server listening on :: port 22.
+Jun 17 09:59:31 hackershala sshd[877]: Accepted password for hsip from 192.168.0.6 port 43274 ssh2
+Jun 17 09:59:31 hackershala sshd[877]: pam_unix(sshd:session): session opened for user hsip by (uid=0)
+Jun 17 09:59:31 hackershala systemd-logind[571]: New session 3 of user hsip.
+Jun 17 09:59:31 hackershala systemd: pam_unix(systemd-user:session): session opened for user hsip by (uid=0)
+Jun 17 09:59:32 hackershala sshd[907]: Received disconnect from 192.168.0.6 port 43274:11: disconnected by user
+Jun 17 09:59:32 hackershala sshd[907]: Disconnected from user hsip 192.168.0.6 port 43274
+Jun 17 09:59:32 hackershala sshd[877]: pam_unix(sshd:session): session closed for user hsip
+Jun 17 09:59:32 hackershala systemd-logind[571]: Removed session 3.
+Jun 17 09:59:58 hackershala passwd[910]: pam_unix(passwd:chauthtok): password changed for root
+Jun 17 10:00:02 hackershala su[911]: Successful su for hsip by root
+Jun 17 10:00:02 hackershala su[911]: + /dev/tty1 root:hsip
+Jun 17 10:00:02 hackershala su[911]: pam_unix(su:session): session opened for user hsip by ubuntu(uid=0)
+Jun 17 10:00:02 hackershala su[911]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 17 10:01:35 hackershala sshd[939]: Accepted publickey for hsip from 192.168.0.6 port 43288 ssh2: RSA SHA256:fSE60JwHBhx7QDraxppUKuY+2rlhQUSPtJIdS2y5atI
+Jun 17 10:01:35 hackershala sshd[939]: pam_unix(sshd:session): session opened for user hsip by (uid=0)
+Jun 17 10:01:35 hackershala systemd-logind[571]: New session 5 of user hsip.
+Jun 17 10:01:35 hackershala systemd: pam_unix(systemd-user:session): session opened for user hsip by (uid=0)
+Jun 17 10:01:46 hackershala sudo: pam_unix(sudo:auth): authentication failure; logname=hsip uid=1001 euid=0 tty=/dev/pts/0 ruser=hsip rhost=  user=hsip
+Jun 17 10:02:33 hackershala sshd[969]: Received disconnect from 192.168.0.6 port 43288:11: disconnected by user
+Jun 17 10:02:33 hackershala sshd[969]: Disconnected from user hsip 192.168.0.6 port 43288
+Jun 17 10:02:33 hackershala sshd[939]: pam_unix(sshd:session): session closed for user hsip
+Jun 17 10:02:33 hackershala sudo: pam_unix(sudo:auth): conversation failed
+Jun 17 10:02:33 hackershala sudo: pam_unix(sudo:auth): auth could not identify password for [hsip]
+Jun 17 10:02:33 hackershala sudo:     hsip : command not allowed ; TTY=pts/0 ; PWD=/home/hsip ; USER=root ; COMMAND=/bin/bash
+Jun 17 10:02:33 hackershala systemd-logind[571]: Removed session 5.
+Jun 17 10:02:36 hackershala sshd[1002]: Accepted publickey for hsip from 192.168.0.6 port 43298 ssh2: RSA SHA256:fSE60JwHBhx7QDraxppUKuY+2rlhQUSPtJIdS2y5atI
+Jun 17 10:02:36 hackershala sshd[1002]: pam_unix(sshd:session): session opened for user hsip by (uid=0)
+Jun 17 10:02:36 hackershala systemd-logind[571]: New session 7 of user hsip.
+Jun 17 10:02:36 hackershala systemd: pam_unix(systemd-user:session): session opened for user hsip by (uid=0)
+Jun 17 10:02:52 hackershala sudo:     hsip : TTY=pts/0 ; PWD=/home/hsip ; USER=root ; COMMAND=/usr/bin/find /home -exec /bin/sh ;
+Jun 17 10:02:52 hackershala sudo: pam_unix(sudo:session): session opened for user root by hsip(uid=0)
+Jun 17 10:03:10 hackershala sshd[1032]: Received disconnect from 192.168.0.6 port 43298:11: disconnected by user
+Jun 17 10:03:10 hackershala sshd[1032]: Disconnected from user hsip 192.168.0.6 port 43298
+Jun 17 10:03:10 hackershala sshd[1002]: pam_unix(sshd:session): session closed for user hsip
+Jun 17 10:03:10 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 17 10:03:10 hackershala systemd-logind[571]: Removed session 7.
+Jun 17 10:03:32 hackershala su[1059]: Successful su for root by hsip
+Jun 17 10:03:32 hackershala su[1059]: + /dev/tty1 hsip:root
+Jun 17 10:03:32 hackershala su[1059]: pam_unix(su:session): session opened for user root by ubuntu(uid=1001)
+Jun 17 10:03:32 hackershala su[1059]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 17 10:04:10 hackershala sshd[876]: Received signal 15; terminating.
+Jun 17 10:04:10 hackershala sshd[1077]: Server listening on 0.0.0.0 port 22.
+Jun 17 10:04:10 hackershala sshd[1077]: Server listening on :: port 22.
+Jun 17 10:04:17 hackershala sshd[1078]: Accepted publickey for hsip from 192.168.0.6 port 43312 ssh2: RSA SHA256:fSE60JwHBhx7QDraxppUKuY+2rlhQUSPtJIdS2y5atI
+Jun 17 10:04:17 hackershala sshd[1078]: pam_unix(sshd:session): session opened for user hsip by (uid=0)
+Jun 17 10:04:17 hackershala systemd-logind[571]: New session 9 of user hsip.
+Jun 17 10:04:17 hackershala systemd: pam_unix(systemd-user:session): session opened for user hsip by (uid=0)
+Jun 17 10:04:50 hackershala sudo:     hsip : TTY=pts/0 ; PWD=/home/hsip ; USER=root ; COMMAND=/usr/bin/find /home -exec /bin/sh ;
+Jun 17 10:04:50 hackershala sudo: pam_unix(sudo:session): session opened for user root by hsip(uid=0)
+Jun 17 10:05:51 hackershala sshd[1108]: Received disconnect from 192.168.0.6 port 43312:11: disconnected by user
+Jun 17 10:05:51 hackershala sshd[1108]: Disconnected from user hsip 192.168.0.6 port 43312
+Jun 17 10:05:51 hackershala sshd[1078]: pam_unix(sshd:session): session closed for user hsip
+Jun 17 10:05:51 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 17 10:05:51 hackershala systemd-logind[571]: Removed session 9.
+Jun 17 10:08:21 hackershala sshd[1139]: Accepted publickey for hsip from 192.168.0.6 port 43378 ssh2: RSA SHA256:fSE60JwHBhx7QDraxppUKuY+2rlhQUSPtJIdS2y5atI
+Jun 17 10:08:21 hackershala sshd[1139]: pam_unix(sshd:session): session opened for user hsip by (uid=0)
+Jun 17 10:08:21 hackershala systemd-logind[571]: New session 11 of user hsip.
+Jun 17 10:08:21 hackershala systemd: pam_unix(systemd-user:session): session opened for user hsip by (uid=0)
+Jun 17 10:08:21 hackershala sshd[1169]: Received disconnect from 192.168.0.6 port 43378:11: disconnected by user
+Jun 17 10:08:21 hackershala sshd[1169]: Disconnected from user hsip 192.168.0.6 port 43378
+Jun 17 10:08:21 hackershala sshd[1139]: pam_unix(sshd:session): session closed for user hsip
+Jun 17 10:08:21 hackershala systemd-logind[571]: Removed session 11.
+Jun 17 10:08:30 hackershala sshd[1172]: Accepted publickey for hsip from 192.168.0.6 port 43380 ssh2: RSA SHA256:fSE60JwHBhx7QDraxppUKuY+2rlhQUSPtJIdS2y5atI
+Jun 17 10:08:30 hackershala sshd[1172]: pam_unix(sshd:session): session opened for user hsip by (uid=0)
+Jun 17 10:08:30 hackershala systemd-logind[571]: New session 13 of user hsip.
+Jun 17 10:08:30 hackershala systemd: pam_unix(systemd-user:session): session opened for user hsip by (uid=0)
+Jun 17 10:08:30 hackershala sshd[1202]: Received disconnect from 192.168.0.6 port 43380:11: disconnected by user
+Jun 17 10:08:30 hackershala sshd[1202]: Disconnected from user hsip 192.168.0.6 port 43380
+Jun 17 10:08:30 hackershala sshd[1172]: pam_unix(sshd:session): session closed for user hsip
+Jun 17 10:08:30 hackershala systemd-logind[571]: Removed session 13.
+Jun 17 10:10:24 hackershala sshd[1077]: Received signal 15; terminating.
+Jun 17 10:10:24 hackershala sshd[1219]: Server listening on 0.0.0.0 port 65535.
+Jun 17 10:10:24 hackershala sshd[1219]: Server listening on :: port 65535.
+Jun 17 10:10:53 hackershala sshd[1220]: Accepted publickey for hsip from 192.168.0.6 port 53134 ssh2: RSA SHA256:fSE60JwHBhx7QDraxppUKuY+2rlhQUSPtJIdS2y5atI
+Jun 17 10:10:53 hackershala sshd[1220]: pam_unix(sshd:session): session opened for user hsip by (uid=0)
+Jun 17 10:10:53 hackershala systemd-logind[571]: New session 15 of user hsip.
+Jun 17 10:10:53 hackershala systemd: pam_unix(systemd-user:session): session opened for user hsip by (uid=0)
+Jun 17 10:11:00 hackershala sshd[1250]: Received disconnect from 192.168.0.6 port 53134:11: disconnected by user
+Jun 17 10:11:00 hackershala sshd[1250]: Disconnected from user hsip 192.168.0.6 port 53134
+Jun 17 10:11:00 hackershala sshd[1220]: pam_unix(sshd:session): session closed for user hsip
+Jun 17 10:11:00 hackershala systemd-logind[571]: Removed session 15.
+Jun 17 10:17:01 hackershala CRON[1277]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 17 10:17:01 hackershala CRON[1277]: pam_unix(cron:session): session closed for user root
+Jun 17 10:17:53 hackershala sshd[1280]: Did not receive identification string from 192.168.0.6 port 53262
+Jun 17 10:17:57 hackershala sshd[1281]: Protocol major versions differ for 192.168.0.6 port 53264: SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3 vs. SSH-1.5-Nmap-SSH1-Hostkey
+Jun 17 10:17:57 hackershala sshd[1282]: Protocol major versions differ for 192.168.0.6 port 53266: SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.3 vs. SSH-1.5-NmapNSE_1.0
+Jun 17 10:17:57 hackershala sshd[1283]: Unable to negotiate with 192.168.0.6 port 53268: no matching host key type found. Their offer: ssh-dss [preauth]
+Jun 17 10:17:57 hackershala sshd[1285]: Connection closed by 192.168.0.6 port 53270 [preauth]
+Jun 17 10:17:57 hackershala sshd[1287]: Connection closed by 192.168.0.6 port 53272 [preauth]
+Jun 17 10:17:57 hackershala sshd[1289]: Unable to negotiate with 192.168.0.6 port 53274: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+Jun 17 10:17:57 hackershala sshd[1291]: Unable to negotiate with 192.168.0.6 port 53276: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+Jun 17 10:17:57 hackershala sshd[1293]: Connection closed by 192.168.0.6 port 53278 [preauth]
+Jun 17 16:52:09 hackershala systemd-logind[521]: New seat seat0.
+Jun 17 16:52:09 hackershala systemd-logind[521]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 17 16:52:09 hackershala systemd-logind[521]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 17 16:52:10 hackershala sshd[548]: Server listening on 0.0.0.0 port 65535.
+Jun 17 16:52:10 hackershala sshd[548]: Server listening on :: port 65535.
+Jun 17 16:52:30 hackershala login[544]: pam_unix(login:auth): check pass; user unknown
+Jun 17 16:52:30 hackershala login[544]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 17 16:52:34 hackershala login[544]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 17 16:52:43 hackershala login[544]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun 17 16:52:43 hackershala systemd-logind[521]: New session 1 of user ubuntu.
+Jun 17 16:52:43 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun 17 11:35:27 hackershala systemd-logind[547]: New seat seat0.
+Jun 17 11:35:27 hackershala systemd-logind[547]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 17 11:35:27 hackershala systemd-logind[547]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 17 11:35:27 hackershala sshd[565]: Server listening on 0.0.0.0 port 65535.
+Jun 17 11:35:27 hackershala sshd[565]: Server listening on :: port 65535.
+Jun 17 12:26:13 hackershala systemd-logind[533]: New seat seat0.
+Jun 17 12:26:13 hackershala systemd-logind[533]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 17 12:26:13 hackershala systemd-logind[533]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 17 12:26:14 hackershala sshd[547]: Server listening on 0.0.0.0 port 65535.
+Jun 17 12:26:14 hackershala sshd[547]: Server listening on :: port 65535.
+Jun 17 12:26:37 hackershala login[546]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun 17 12:26:38 hackershala systemd-logind[533]: New session 1 of user ubuntu.
+Jun 17 12:26:38 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun 17 12:26:53 hackershala sudo: pam_unix(sudo:auth): authentication failure; logname=ubuntu uid=1000 euid=0 tty=/dev/tty1 ruser=ubuntu rhost=  user=ubuntu
+Jun 17 12:27:08 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Jun 17 12:27:08 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jun 17 12:29:16 hackershala systemd: pam_unix(systemd-user:session): session closed for user ubuntu
+Jun 17 12:36:37 hackershala systemd-logind[524]: New seat seat0.
+Jun 17 12:36:37 hackershala systemd-logind[524]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 17 12:36:37 hackershala systemd-logind[524]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 17 12:36:37 hackershala sshd[544]: Server listening on 0.0.0.0 port 65535.
+Jun 17 12:36:37 hackershala sshd[544]: Server listening on :: port 65535.
+Jun 17 12:40:08 hackershala login[545]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun 17 12:40:08 hackershala systemd-logind[524]: New session 1 of user ubuntu.
+Jun 17 12:40:08 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun 17 12:40:17 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/bash
+Jun 17 12:40:17 hackershala sudo: pam_unix(sudo:session): session opened for user root by ubuntu(uid=0)
+Jun 17 12:40:46 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 18 12:13:06 hackershala systemd-logind[558]: New seat seat0.
+Jun 18 12:13:06 hackershala systemd-logind[558]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 18 12:13:06 hackershala systemd-logind[558]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 18 12:13:07 hackershala sshd[641]: Server listening on 0.0.0.0 port 65535.
+Jun 18 12:13:07 hackershala sshd[641]: Server listening on :: port 65535.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Jun 18 12:32:35 hackershala systemd-logind[484]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 18 12:32:35 hackershala systemd-logind[484]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 18 12:32:35 hackershala systemd-logind[484]: New seat seat0.
+Jun 18 12:32:36 hackershala sshd[532]: Server listening on 0.0.0.0 port 65535.
+Jun 18 12:32:36 hackershala sshd[532]: Server listening on :: port 65535.
+Jun 18 13:37:46 hackershala systemd-logind[550]: New seat seat0.
+Jun 18 13:37:46 hackershala systemd-logind[550]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 18 13:37:46 hackershala systemd-logind[550]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 18 13:37:47 hackershala sshd[628]: Server listening on 0.0.0.0 port 65535.
+Jun 18 13:37:47 hackershala sshd[628]: Server listening on :: port 65535.
+Jun 18 13:50:32 hackershala systemd-logind[541]: New seat seat0.
+Jun 18 13:50:32 hackershala systemd-logind[541]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 18 13:50:32 hackershala systemd-logind[541]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 18 13:50:32 hackershala sshd[571]: Server listening on 0.0.0.0 port 65535.
+Jun 18 13:50:32 hackershala sshd[571]: Server listening on :: port 65535.
+Jun 19 10:07:33 hackershala systemd-logind[547]: New seat seat0.
+Jun 19 10:07:33 hackershala systemd-logind[547]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 19 10:07:33 hackershala systemd-logind[547]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 19 10:07:33 hackershala sshd[595]: Server listening on 0.0.0.0 port 65535.
+Jun 19 10:07:33 hackershala sshd[595]: Server listening on :: port 65535.
+Jun 19 10:08:03 hackershala login[586]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun 19 10:08:03 hackershala systemd-logind[547]: New session 1 of user ubuntu.
+Jun 19 10:08:03 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun 20 21:38:34 hackershala systemd-logind[557]: New seat seat0.
+Jun 20 21:38:34 hackershala systemd-logind[557]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 20 21:38:34 hackershala systemd-logind[557]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 20 21:38:35 hackershala sshd[630]: Server listening on 0.0.0.0 port 65535.
+Jun 20 21:38:35 hackershala sshd[630]: Server listening on :: port 65535.
+Jun 20 21:38:53 hackershala login[603]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun 20 21:38:53 hackershala systemd-logind[557]: New session 1 of user ubuntu.
+Jun 20 21:38:53 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun 20 21:39:08 hackershala su[932]: Successful su for hsip by ubuntu
+Jun 20 21:39:08 hackershala su[932]: + /dev/tty1 ubuntu:hsip
+Jun 20 21:39:08 hackershala su[932]: pam_unix(su:session): session opened for user hsip by ubuntu(uid=1000)
+Jun 20 21:39:08 hackershala su[932]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 20 21:39:46 hackershala sudo:     hsip : TTY=tty1 ; PWD=/home/hsip ; USER=root ; COMMAND=list
+Jun 20 21:41:16 hackershala sudo:     hsip : command not allowed ; TTY=tty1 ; PWD=/home/hsip ; USER=root ; COMMAND=/bin/bash
+Jun 20 21:41:30 hackershala su[950]: Successful su for root by hsip
+Jun 20 21:41:30 hackershala su[950]: + /dev/tty1 hsip:root
+Jun 20 21:41:30 hackershala su[950]: pam_unix(su:session): session opened for user root by ubuntu(uid=1001)
+Jun 20 21:41:30 hackershala su[950]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 20 21:43:07 hackershala su[950]: pam_unix(su:session): session closed for user root
+Jun 20 21:43:07 hackershala su[932]: pam_unix(su:session): session closed for user hsip
+Jun 23 23:02:39 hackershala systemd-logind[561]: New seat seat0.
+Jun 23 23:02:39 hackershala systemd-logind[561]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 23 23:02:39 hackershala systemd-logind[561]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 23 23:02:39 hackershala sshd[577]: Server listening on 0.0.0.0 port 65535.
+Jun 23 23:02:39 hackershala sshd[577]: Server listening on :: port 65535.
+Jun 23 23:03:11 hackershala login[573]: pam_unix(login:auth): check pass; user unknown
+Jun 23 23:03:11 hackershala login[573]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 17:33:14 hackershala login[573]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 17:33:57 hackershala login[885]: pam_unix(login:auth): check pass; user unknown
+Jun 23 17:33:57 hackershala login[885]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 17:34:01 hackershala login[885]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 17:34:08 hackershala login[885]: pam_unix(login:auth): check pass; user unknown
+Jun 23 17:34:08 hackershala login[885]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 17:34:11 hackershala login[885]: FAILED LOGIN (2) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:07:20 hackershala login[886]: pam_unix(login:auth): check pass; user unknown
+Jun 23 18:07:20 hackershala login[886]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 18:07:24 hackershala login[886]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:07:30 hackershala login[886]: pam_unix(login:auth): check pass; user unknown
+Jun 23 18:07:33 hackershala login[886]: FAILED LOGIN (2) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:07:40 hackershala login[886]: pam_unix(login:auth): check pass; user unknown
+Jun 23 18:07:43 hackershala login[886]: FAILED LOGIN (3) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:07:53 hackershala login[886]: pam_unix(login:auth): check pass; user unknown
+Jun 23 18:07:53 hackershala login[886]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 18:07:55 hackershala login[886]: FAILED LOGIN (4) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:08:02 hackershala login[886]: pam_unix(login:auth): check pass; user unknown
+Jun 23 18:08:02 hackershala login[886]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 18:08:04 hackershala login[886]: FAILED LOGIN (5) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:08:04 hackershala login[886]: TOO MANY LOGIN TRIES (5) on '/dev/tty1' FOR 'UNKNOWN'
+Jun 23 18:08:04 hackershala login[886]: pam_mail(login:session): user unknown
+Jun 23 18:08:04 hackershala login[886]: pam_unix(login:session): session closed for user benoy
+Jun 23 18:08:04 hackershala login[886]: PAM 2 more authentication failures; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 18:08:13 hackershala login[894]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=ubuntu
+Jun 23 18:08:16 hackershala login[894]: FAILED LOGIN (1) on '/dev/tty1' FOR 'ubuntu', Authentication failure
+Jun 23 18:08:25 hackershala login[894]: pam_unix(login:auth): check pass; user unknown
+Jun 23 18:08:25 hackershala login[894]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 18:08:29 hackershala login[894]: FAILED LOGIN (2) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:08:57 hackershala login[894]: pam_securetty(login:auth): unexpected response from failed conversation function
+Jun 23 18:08:57 hackershala login[894]: pam_securetty(login:auth): cannot determine username
+Jun 23 18:09:00 hackershala login[894]: FAILED LOGIN (3) on '/dev/tty1' FOR 'UNKNOWN', Error in service module
+Jun 23 18:09:23 hackershala systemd-logind[510]: New seat seat0.
+Jun 23 18:09:23 hackershala systemd-logind[510]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 23 18:09:23 hackershala systemd-logind[510]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 23 18:09:24 hackershala sshd[576]: Server listening on 0.0.0.0 port 65535.
+Jun 23 18:09:24 hackershala sshd[576]: Server listening on :: port 65535.
+Jun 23 18:09:39 hackershala login[570]: pam_unix(login:auth): check pass; user unknown
+Jun 23 18:09:39 hackershala login[570]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 18:09:42 hackershala login[570]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:09:48 hackershala login[570]: pam_unix(login:auth): check pass; user unknown
+Jun 23 18:09:52 hackershala login[570]: FAILED LOGIN (2) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:09:54 hackershala login[570]: pam_securetty(login:auth): unexpected response from failed conversation function
+Jun 23 18:09:54 hackershala login[570]: pam_securetty(login:auth): cannot determine username
+Jun 23 18:09:58 hackershala login[570]: FAILED LOGIN (3) on '/dev/tty1' FOR 'UNKNOWN', Error in service module
+Jun 23 18:10:01 hackershala login[570]: pam_unix(login:auth): check pass; user unknown
+Jun 23 18:10:01 hackershala login[570]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 18:10:04 hackershala login[570]: FAILED LOGIN (4) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:10:05 hackershala login[570]: pam_unix(login:auth): check pass; user unknown
+Jun 23 18:10:05 hackershala login[570]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 18:10:09 hackershala login[570]: FAILED LOGIN (5) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:10:09 hackershala login[570]: TOO MANY LOGIN TRIES (5) on '/dev/tty1' FOR 'UNKNOWN'
+Jun 23 18:10:09 hackershala login[570]: pam_mail(login:session): user unknown
+Jun 23 18:10:09 hackershala login[570]: pam_unix(login:session): close_session - error recovering username
+Jun 23 18:10:09 hackershala login[570]: PAM 1 more authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 18:10:10 hackershala login[770]: pam_unix(login:auth): check pass; user unknown
+Jun 23 18:10:10 hackershala login[770]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 18:10:13 hackershala login[770]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:10:13 hackershala login[770]: pam_unix(login:auth): check pass; user unknown
+Jun 23 18:10:13 hackershala login[770]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=
+Jun 23 18:10:16 hackershala login[770]: FAILED LOGIN (2) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:10:19 hackershala login[770]: pam_unix(login:auth): check pass; user unknown
+Jun 23 18:10:22 hackershala login[770]: FAILED LOGIN (3) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jun 23 18:20:24 hackershala systemd-logind[1481]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 23 18:20:24 hackershala systemd-logind[1481]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 23 18:20:24 hackershala systemd-logind[1481]: New seat seat0.
+Jun 23 18:20:24 hackershala sshd[1515]: Server listening on 0.0.0.0 port 65535.
+Jun 23 18:20:24 hackershala sshd[1515]: Server listening on :: port 65535.
+Jun 23 18:21:23 hackershala sshd[1515]: Received signal 15; terminating.
+Jun 23 18:26:37 hackershala systemd-logind[476]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 23 18:26:37 hackershala systemd-logind[476]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 23 18:26:37 hackershala systemd-logind[476]: New seat seat0.
+Jun 23 18:26:37 hackershala sshd[525]: Server listening on 0.0.0.0 port 65535.
+Jun 23 18:26:37 hackershala sshd[525]: Server listening on :: port 65535.
+Jun 23 18:26:47 hackershala login[526]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jun 23 18:26:47 hackershala systemd-logind[476]: New session 1 of user root.
+Jun 23 18:26:47 hackershala systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 23 18:26:47 hackershala login[803]: ROOT LOGIN  on '/dev/tty1'
+Jun 23 18:31:00 hackershala sudo:     root : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt install git
+Jun 23 18:31:00 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 23 18:32:08 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 23 19:17:01 hackershala CRON[15602]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 23 19:17:01 hackershala CRON[15602]: pam_unix(cron:session): session closed for user root
+Jun 24 16:04:59 hackershala systemd-logind[571]: New seat seat0.
+Jun 24 16:04:59 hackershala systemd-logind[571]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 24 16:04:59 hackershala systemd-logind[571]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 24 16:05:01 hackershala sshd[618]: Server listening on 0.0.0.0 port 65535.
+Jun 24 16:05:01 hackershala sshd[618]: Server listening on :: port 65535.
+Jun 24 16:05:13 hackershala login[590]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Jun 24 16:05:15 hackershala login[590]: FAILED LOGIN (1) on '/dev/tty1' FOR 'root', Authentication failure
+Jun 24 16:05:31 hackershala login[590]: FAILED LOGIN (2) on '/dev/tty1' FOR 'root', Authentication failure
+Jun 24 16:06:45 hackershala systemd-logind[517]: New seat seat0.
+Jun 24 16:06:45 hackershala systemd-logind[517]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 24 16:06:45 hackershala systemd-logind[517]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 24 16:06:45 hackershala sshd[574]: Server listening on 0.0.0.0 port 65535.
+Jun 24 16:06:45 hackershala sshd[574]: Server listening on :: port 65535.
+Jun 24 16:06:55 hackershala login[569]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Jun 24 16:06:57 hackershala login[569]: FAILED LOGIN (1) on '/dev/tty1' FOR 'root', Authentication failure
+Jun 24 16:07:00 hackershala sshd[574]: Received signal 15; terminating.
+Jun 24 16:07:12 hackershala sshd[529]: Server listening on 0.0.0.0 port 65535.
+Jun 24 16:07:12 hackershala sshd[529]: Server listening on :: port 65535.
+Jun 24 16:07:12 hackershala systemd-logind[518]: New seat seat0.
+Jun 24 16:07:12 hackershala systemd-logind[518]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 24 16:07:12 hackershala systemd-logind[518]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 24 16:07:16 hackershala sshd[529]: Received signal 15; terminating.
+Jun 24 16:07:25 hackershala systemd-logind[568]: New seat seat0.
+Jun 24 16:07:25 hackershala systemd-logind[568]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 24 16:07:25 hackershala systemd-logind[568]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 24 16:07:26 hackershala sshd[588]: Server listening on 0.0.0.0 port 65535.
+Jun 24 16:07:26 hackershala sshd[588]: Server listening on :: port 65535.
+Jun 24 16:09:59 hackershala systemd-logind[481]: New seat seat0.
+Jun 24 16:09:59 hackershala systemd-logind[481]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 24 16:09:59 hackershala systemd-logind[481]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 24 16:09:59 hackershala sshd[555]: Server listening on 0.0.0.0 port 65535.
+Jun 24 16:09:59 hackershala sshd[555]: Server listening on :: port 65535.
+Jun 24 16:10:20 hackershala login[553]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jun 24 16:10:20 hackershala systemd-logind[481]: New session 1 of user root.
+Jun 24 16:10:20 hackershala systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 24 16:10:20 hackershala login[799]: ROOT LOGIN  on '/dev/tty1'
+Jun 24 16:15:59 hackershala sudo:     root : TTY=tty1 ; PWD=/srv/ftp ; USER=root ; COMMAND=/usr/bin/apt install git
+Jun 24 16:15:59 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 16:16:01 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 16:17:01 hackershala CRON[844]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 16:17:01 hackershala CRON[844]: pam_unix(cron:session): session closed for user root
+Jun 24 16:32:32 hackershala passwd[942]: pam_unix(passwd:chauthtok): password changed for root
+Jun 24 16:32:40 hackershala su[943]: Successful su for hsip by root
+Jun 24 16:32:40 hackershala su[943]: + /dev/tty1 root:hsip
+Jun 24 16:32:40 hackershala su[943]: pam_unix(su:session): session opened for user hsip by root(uid=0)
+Jun 24 16:32:40 hackershala su[943]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 16:34:49 hackershala su[969]: No passwd entry for user 'sudo'
+Jun 24 16:34:49 hackershala su[969]: FAILED su for sudo by hsip
+Jun 24 16:34:49 hackershala su[969]: - /dev/tty1 hsip:sudo
+Jun 24 16:34:58 hackershala su[970]: Successful su for root by hsip
+Jun 24 16:34:58 hackershala su[970]: + /dev/tty1 hsip:root
+Jun 24 16:34:58 hackershala su[970]: pam_unix(su:session): session opened for user root by root(uid=1001)
+Jun 24 16:34:58 hackershala su[970]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 16:35:02 hackershala su[981]: Successful su for ubuntu by root
+Jun 24 16:35:02 hackershala su[981]: + /dev/tty1 root:ubuntu
+Jun 24 16:35:02 hackershala su[981]: pam_unix(su:session): session opened for user ubuntu by root(uid=0)
+Jun 24 16:35:02 hackershala su[981]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 16:38:19 hackershala sudo: pam_unix(sudo:auth): authentication failure; logname=root uid=1000 euid=0 tty=/dev/tty1 ruser=ubuntu rhost=  user=ubuntu
+Jun 24 16:39:13 hackershala sudo:   ubuntu : 3 incorrect password attempts ; TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/bin/cat ./bash_history
+Jun 24 16:40:23 hackershala passwd[1045]: pam_unix(passwd:chauthtok): authentication failure; logname=root uid=1000 euid=0 tty= ruser= rhost=  user=ubuntu
+Jun 24 16:48:04 hackershala su[1052]: pam_unix(su:auth): authentication failure; logname=root uid=1000 euid=0 tty=/dev/tty1 ruser=ubuntu rhost=  user=hsip
+Jun 24 16:48:06 hackershala su[1052]: pam_authenticate: Authentication failure
+Jun 24 16:48:06 hackershala su[1052]: FAILED su for hsip by ubuntu
+Jun 24 16:48:06 hackershala su[1052]: - /dev/tty1 ubuntu:hsip
+Jun 24 16:48:12 hackershala su[1053]: Successful su for root by ubuntu
+Jun 24 16:48:12 hackershala su[1053]: + /dev/tty1 ubuntu:root
+Jun 24 16:48:12 hackershala su[1053]: pam_unix(su:session): session opened for user root by root(uid=1000)
+Jun 24 16:48:12 hackershala su[1053]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 16:48:36 hackershala su[1065]: Successful su for hsip by root
+Jun 24 16:48:36 hackershala su[1065]: + /dev/tty1 root:hsip
+Jun 24 16:48:36 hackershala su[1065]: pam_unix(su:session): session opened for user hsip by root(uid=0)
+Jun 24 16:48:36 hackershala su[1065]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 16:51:19 hackershala sudo:     hsip : TTY=tty1 ; PWD=/home/hsip ; USER=root ; COMMAND=list
+Jun 24 16:51:35 hackershala sudo:     hsip : TTY=tty1 ; PWD=/home/hsip ; USER=root ; COMMAND=/usr/bin/apt-get update -o APT::Update::Pre-Invoke::=/bin/sh
+Jun 24 16:51:35 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 16:53:06 hackershala sudo:     root : TTY=tty1 ; PWD=/home/hsip ; USER=root ; COMMAND=/usr/bin/find /home -exec /bin/sh ;
+Jun 24 16:53:06 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 16:53:10 hackershala sudo:     root : TTY=tty1 ; PWD=/home/hsip ; USER=root ; COMMAND=/bin/bash
+Jun 24 16:53:10 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 16:55:24 hackershala su[1157]: Successful su for hsip by root
+Jun 24 16:55:24 hackershala su[1157]: + /dev/tty1 root:hsip
+Jun 24 16:55:24 hackershala su[1157]: pam_unix(su:session): session opened for user hsip by root(uid=0)
+Jun 24 16:55:24 hackershala su[1157]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 16:56:49 hackershala sudo: pam_unix(sudo:auth): authentication failure; logname=root uid=1001 euid=0 tty=/dev/tty1 ruser=hsip rhost=  user=hsip
+Jun 24 16:57:16 hackershala sudo:     hsip : command not allowed ; TTY=tty1 ; PWD=/home/hsip ; USER=root ; COMMAND=/usr/bin/git commit -m my first
+Jun 24 17:04:54 hackershala sudo:     hsip : TTY=tty1 ; PWD=/ ; USER=root ; COMMAND=list
+Jun 24 17:10:30 hackershala sudo:     hsip : TTY=tty1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/apt-get update -o APT::Update::Pre-Invoke::=/bin/sh
+Jun 24 17:10:30 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 17:10:33 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 17:10:48 hackershala su[1269]: pam_unix(su:auth): authentication failure; logname=root uid=1001 euid=0 tty=/dev/tty1 ruser=hsip rhost=  user=ubuntu
+Jun 24 17:10:50 hackershala su[1269]: pam_authenticate: Authentication failure
+Jun 24 17:10:50 hackershala su[1269]: FAILED su for ubuntu by hsip
+Jun 24 17:10:50 hackershala su[1269]: - /dev/tty1 hsip:ubuntu
+Jun 24 17:11:19 hackershala sudo:     hsip : TTY=tty1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/find /home -exec /bin/sh ;
+Jun 24 17:11:19 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 17:12:03 hackershala su[1287]: Successful su for hsip by root
+Jun 24 17:12:03 hackershala su[1287]: + /dev/tty1 root:hsip
+Jun 24 17:12:03 hackershala su[1287]: pam_unix(su:session): session opened for user hsip by root(uid=0)
+Jun 24 17:12:03 hackershala su[1287]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 17:16:28 hackershala su[1318]: Successful su for root by hsip
+Jun 24 17:16:28 hackershala su[1318]: + /dev/tty1 hsip:root
+Jun 24 17:16:28 hackershala su[1318]: pam_unix(su:session): session opened for user root by root(uid=1001)
+Jun 24 17:16:28 hackershala su[1318]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 17:17:01 hackershala CRON[1332]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 17:17:01 hackershala CRON[1332]: pam_unix(cron:session): session closed for user root
+Jun 24 17:20:54 hackershala sudo:     root : TTY=tty1 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/passwd ubuntu
+Jun 24 17:20:54 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 17:21:01 hackershala passwd[1343]: pam_unix(passwd:chauthtok): password changed for ubuntu
+Jun 24 17:21:01 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 17:21:07 hackershala sudo:     root : TTY=tty1 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/passwd hsip
+Jun 24 17:21:07 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 17:21:14 hackershala passwd[1345]: pam_unix(passwd:chauthtok): password changed for hsip
+Jun 24 17:21:14 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 17:21:19 hackershala su[1347]: Successful su for ubuntu by root
+Jun 24 17:21:19 hackershala su[1347]: + /dev/tty1 root:ubuntu
+Jun 24 17:21:19 hackershala su[1347]: pam_unix(su:session): session opened for user ubuntu by root(uid=0)
+Jun 24 17:21:19 hackershala su[1347]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 17:21:38 hackershala su[1360]: Successful su for hsip by ubuntu
+Jun 24 17:21:38 hackershala su[1360]: + /dev/tty1 ubuntu:hsip
+Jun 24 17:21:38 hackershala su[1360]: pam_unix(su:session): session opened for user hsip by root(uid=1000)
+Jun 24 17:21:38 hackershala su[1360]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 17:21:59 hackershala su[1374]: Successful su for ubuntu by hsip
+Jun 24 17:21:59 hackershala su[1374]: + /dev/tty1 hsip:ubuntu
+Jun 24 17:21:59 hackershala su[1374]: pam_unix(su:session): session opened for user ubuntu by root(uid=1001)
+Jun 24 17:21:59 hackershala su[1374]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 17:22:22 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/hsip ; USER=root ; COMMAND=/bin/cat .bash_history
+Jun 24 17:22:22 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 17:22:22 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 17:31:54 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/usr/local/bin ; USER=root ; COMMAND=/usr/sbin/netdiscover
+Jun 24 17:31:54 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 17:52:43 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/usr/local/bin ; USER=root ; COMMAND=/usr/bin/apt install sirb
+Jun 24 17:52:43 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 17:52:44 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 17:52:51 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/usr/local/bin ; USER=root ; COMMAND=/usr/bin/apt install dirb
+Jun 24 17:52:51 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 17:53:15 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 17:53:56 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/usr/local/bin ; USER=root ; COMMAND=/usr/bin/dirb http://192.168.1.103:443
+Jun 24 17:53:56 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 17:53:56 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 18:01:39 hackershala su[1558]: Successful su for hsip by ubuntu
+Jun 24 18:01:39 hackershala su[1558]: + /dev/tty1 ubuntu:hsip
+Jun 24 18:01:39 hackershala su[1558]: pam_unix(su:session): session opened for user hsip by root(uid=1000)
+Jun 24 18:01:39 hackershala su[1558]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 18:03:07 hackershala sudo:     hsip : TTY=tty1 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/find / -name flag
+Jun 24 18:03:07 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 18:03:12 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 18:03:28 hackershala sudo:     hsip : command not allowed ; TTY=tty1 ; PWD=/ ; USER=root ; COMMAND=/root
+Jun 24 18:03:38 hackershala sudo:     hsip : command not allowed ; TTY=tty1 ; PWD=/ ; USER=root ; COMMAND=cd /root
+Jun 24 18:04:02 hackershala sudo:     hsip : command not allowed ; TTY=tty1 ; PWD=/ ; USER=root ; COMMAND=/bin/cat /root/flag
+Jun 24 18:04:14 hackershala su[1585]: Successful su for root by hsip
+Jun 24 18:04:14 hackershala su[1585]: + /dev/tty1 hsip:root
+Jun 24 18:04:14 hackershala su[1585]: pam_unix(su:session): session opened for user root by root(uid=1001)
+Jun 24 18:04:14 hackershala su[1585]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 18:12:12 hackershala gpasswd[1643]: password of group root removed by root
+Jun 24 18:12:17 hackershala gpasswd[1647]: password of group ubuntu removed by root
+Jun 24 18:12:24 hackershala gpasswd[1651]: password of group hsip removed by root
+Jun 24 18:17:01 hackershala CRON[1674]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 18:17:01 hackershala CRON[1674]: pam_unix(cron:session): session closed for user root
+Jun 24 18:21:27 hackershala sudo:     root : TTY=tty1 ; PWD=/srv/ftp ; USER=root ; COMMAND=/usr/bin/apt install python
+Jun 24 18:21:27 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 18:21:28 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 18:21:34 hackershala sudo:     root : TTY=tty1 ; PWD=/srv/ftp ; USER=root ; COMMAND=/usr/bin/python ssh2john.py key
+Jun 24 18:21:34 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 18:21:34 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 18:22:16 hackershala sudo:     root : TTY=tty1 ; PWD=/srv/ftp ; USER=root ; COMMAND=/usr/bin/python ssh2john.py authorized_key
+Jun 24 18:22:16 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 18:22:16 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 18:22:29 hackershala sudo:     root : TTY=tty1 ; PWD=/srv/ftp ; USER=root ; COMMAND=/usr/bin/python ssh2john.py authorized_keys
+Jun 24 18:22:29 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 18:22:29 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 18:23:10 hackershala sudo:     root : TTY=tty1 ; PWD=/srv/ftp ; USER=root ; COMMAND=/usr/bin/python ssh2john.py authorized_keys
+Jun 24 18:23:10 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 18:23:10 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 18:56:39 hackershala login[1788]: pam_unix(login:session): session opened for user root by root(uid=0)
+Jun 24 18:56:39 hackershala login[1788]: pam_systemd(login:session): Cannot create session: Already running in a session
+Jun 24 18:56:39 hackershala login[1813]: ROOT LOGIN  on '/dev/tty1'
+Jun 24 18:58:11 hackershala login[1838]: pam_unix(login:session): session opened for user ubuntu by root(uid=0)
+Jun 24 18:58:11 hackershala login[1838]: pam_systemd(login:session): Cannot create session: Already running in a session
+Jun 24 18:58:50 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu/snort_src/daq-2.0.7 ; USER=root ; COMMAND=./configure
+Jun 24 18:58:50 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 18:58:56 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 18:59:09 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu/snort_src/daq-2.0.7 ; USER=root ; COMMAND=./install-sh
+Jun 24 18:59:09 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 18:59:09 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 18:59:26 hackershala sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu/snort_src/daq-2.0.7 ; USER=root ; COMMAND=./compile
+Jun 24 18:59:26 hackershala sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jun 24 18:59:26 hackershala sudo: pam_unix(sudo:session): session closed for user root
+Jun 24 19:03:05 hackershala su[4592]: Successful su for root by ubuntu
+Jun 24 19:03:05 hackershala su[4592]: + /dev/tty1 ubuntu:root
+Jun 24 19:03:05 hackershala su[4592]: pam_unix(su:session): session opened for user root by root(uid=1000)
+Jun 24 19:03:05 hackershala su[4592]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 24 19:17:02 hackershala CRON[4627]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 24 19:17:02 hackershala CRON[4627]: pam_unix(cron:session): session closed for user root
+Jun 24 19:29:23 hackershala su[4592]: pam_unix(su:session): session closed for user root
+Jun 25 17:50:46 hackershala systemd-logind[552]: New seat seat0.
+Jun 25 17:50:46 hackershala systemd-logind[552]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 25 17:50:46 hackershala systemd-logind[552]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 25 17:50:48 hackershala sshd[633]: Server listening on 0.0.0.0 port 65535.
+Jun 25 17:50:48 hackershala sshd[633]: Server listening on :: port 65535.
+Jun 25 17:50:59 hackershala login[592]: pam_unix(login:session): session opened for user ubuntu by LOGIN(uid=0)
+Jun 25 17:50:59 hackershala systemd-logind[552]: New session 1 of user ubuntu.
+Jun 25 17:51:00 hackershala systemd: pam_unix(systemd-user:session): session opened for user ubuntu by (uid=0)
+Jun 25 17:51:05 hackershala su[938]: Successful su for root by ubuntu
+Jun 25 17:51:05 hackershala su[938]: + /dev/tty1 ubuntu:root
+Jun 25 17:51:05 hackershala su[938]: pam_unix(su:session): session opened for user root by ubuntu(uid=1000)
+Jun 25 17:51:05 hackershala su[938]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jun 25 18:17:01 hackershala CRON[1025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 25 18:17:01 hackershala CRON[1025]: pam_unix(cron:session): session closed for user root
+Jun 25 18:42:36 hackershala sshd[633]: Received signal 15; terminating.
+Jun 25 19:00:45 hackershala systemd-logind[486]: New seat seat0.
+Jun 25 19:00:45 hackershala systemd-logind[486]: Watching system buttons on /dev/input/event0 (Power Button)
+Jun 25 19:00:45 hackershala systemd-logind[486]: Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard)
+Jun 25 19:00:45 hackershala sshd[587]: Server listening on 0.0.0.0 port 65535.
+Jun 25 19:00:45 hackershala sshd[587]: Server listening on :: port 65535.
+Jun 25 19:01:12 hackershala login[535]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jun 25 19:01:12 hackershala systemd-logind[486]: New session 1 of user root.
+Jun 25 19:01:12 hackershala systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 25 19:01:12 hackershala login[859]: ROOT LOGIN  on '/dev/tty1'
